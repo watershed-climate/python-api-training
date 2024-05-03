@@ -1,0 +1,4 @@
+﻿"date","distance","distance_unit","flight_type","cabin_class","airline","passenger_quantity","cancellation"
+"2022-02-22","2873","miles","One way","Premium economy","Delta","2","Not cancelled"
+"2023-04-15","810","miles","One way","Economy","British Airways","1","Cancelled"
+"2023-01-01","3621","km","Round trip (Watershed will double the route distance)","Business","Delta","1","Not cancelled"

@@ -46,17 +46,18 @@ def getFlightsData():
     return df.to_dict(orient='records')
 
 
+# TODO find these variables
 measurement_project_id = ''
 dataset_id = ''
 cts_id = ''
 cts_version_id = ''
 
-
 if __name__ == "__main__":
-    ### TODO FILL ME IN 
-    # confirm API connectivity by querying for list of users in your organization
+    # Example API Query: fetch list of users in the organization
     users = get("v2/organization/users")
-    print("users: ", users)
+    print("Users: ", users)
+
+    ### TODO fill in the below logic
 
     # create an API upload instance
 

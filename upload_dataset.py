@@ -41,7 +41,7 @@ def post(url, body):
 
 
 def getFlightsData():
-    df = pandas.read_csv("Flights_ Flights by distance.csv")
+    df = pandas.read_csv("Flights.csv")
     df = df.drop("airline", axis=1)
     return df.to_dict(orient='records')
 
@@ -54,8 +54,9 @@ cts_version_id = ''
 
 if __name__ == "__main__":
     ### TODO FILL ME IN 
-
     # confirm API connectivity by querying for list of users in your organization
+    users = get("v2/organization/users")
+    print("users: ", users)
 
     # create an API upload instance
 

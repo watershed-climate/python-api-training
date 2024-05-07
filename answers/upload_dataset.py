@@ -41,7 +41,7 @@ def post(url, body):
 
 
 def getFlightsData():
-    df = pandas.read_csv("Flights_ Flights by distance.csv")
+    df = pandas.read_csv("Flights.csv")
     df = df.drop("airline", axis=1)
     return df.to_dict(orient='records')
 
@@ -89,3 +89,15 @@ if __name__ == "__main__":
     apiUploadSubmission = post(f'v2/ingestion/uploads/{apiUploadId}/submit', {'project_id': measurement_project_id})
     print("apiUpload", apiUploadSubmission)
 
+    # =======================
+    # DEMO: export a footprint
+    # Create the export
+    exportCreateResponse = post("v2/reporting/export", {"footprintSnapshotId": "fps_2WD5CecSURRnzLBK9CUQ"})
+    print("fp", exportCreateResponse)
+
+    print("Polling for export to be ready...")
+    downloadUrl = None
+    while downloadUrl is None:
+        export = get(f'v2/reporting/export/{exportCreateResponse["id"]}')
+        downloadUrl = export["downloadUrl"]
+        print("export", export)

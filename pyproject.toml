@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Hazel Gurule <hazel@watershedclimate.com>"]
 readme = "README.md"
-packages = [{include = "watershed_python_demo"}]
+packages = []
 
 [tool.poetry.dependencies]
 python = "^3.9"

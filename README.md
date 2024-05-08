@@ -25,4 +25,5 @@ Training Repo Setup
 ## Resources
 - [Watershed's learning hub](https://dashboard.watershedclimate.com/learn#)
 - [API Documentation](https://api-docs.watershed.com/reference)
+- [How to upload data API Guide](https://api-docs.watershed.com/docs/uploads)
 - Please contact api-support@watershedclimate.com for any questions

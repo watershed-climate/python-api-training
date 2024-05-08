@@ -46,58 +46,54 @@ def getFlightsData():
     return df.to_dict(orient='records')
 
 
-measurement_project_id = 'proj_2WD5RRZSX1E5uBNGRL1Y'
-dataset_id = 'dsetpar_2WD4757jvtBDjg2cvz5B'
-cts_id = 'cts_21155GFYSXYDGxgNCxmK'
-cts_version_id = 'ctsv_2115KzYR4J2XsDHT6CcA'
-
+# TODO find these variables
+measurementProjectId = 'proj_2WD5SJYGMzyYTWiDodfF' # should start with proj_
+datasetId = 'dsetpar_2WD4757jvtBDjg2cvz5B' # should start with dsetpar_
+schemaId = 'cts_21155GFYSXYDGxgNCxmK' # should start with cts_
+schemaVersion = '1.0'
 
 if __name__ == "__main__":
-    # confirm API connectivity by querying for list of users in your organization
+    # Example API Query: fetch list of users in the organization
     users = get("v2/organization/users")
-    print("users", users)
+    print("Users: ", users)
+
+    ### TODO fill in the below logic
 
     # create an API upload instance
-    apiUpload = post("v2/ingestion/uploads", {
-        "uploadSchemaId": cts_id,
-        "uploadSchemaVersion": cts_version_id,
-        "datasetId": dataset_id,
+    createUploadResult = post("v2/ingestion/uploads", {
+        "uploadSchemaId": schemaId,
+        "uploadSchemaVersion": schemaVersion,
+        "datasetId": datasetId,
+        "name": "test api upload for workshop"
     })
+    print("createUploadResult, ", createUploadResult)
 
-    print(apiUpload)
-    # get your API upload ID
-    apiUploadId = apiUpload["id"]
+    # store your API upload ID
+    apiUploadId = createUploadResult["id"]
 
-
-    # get your data to upload
+    # find your data to upload
     flightsData = getFlightsData()
-    print("")
-    print("Generated flights data:")
-    print(flightsData)
 
     # upload the data
-    dataResult = post(
-        f'v2/ingestion/uploads/{apiUploadId}/data',
-        {'records':flightsData}
-    )
+    post(f'v2/ingestion/uploads/{apiUploadId}/data', {"records": flightsData})
 
     # validate the data
-    apiUploadValidation = post(f'v2/ingestion/uploads/{apiUploadId}/validate', {})
-    print("apiUpload", apiUploadValidation)
+    post(f'v2/ingestion/uploads/{apiUploadId}/validate', {})
 
     # submit the data
-    apiUploadSubmission = post(f'v2/ingestion/uploads/{apiUploadId}/submit', {'project_id': measurement_project_id})
-    print("apiUpload", apiUploadSubmission)
+    post(f'v2/ingestion/uploads/{apiUploadId}/submit', { "project_id": measurementProjectId })
+
 
     # =======================
-    # DEMO: export a footprint
+    # Export a footprint
     # Create the export
-    exportCreateResponse = post("v2/reporting/export", {"footprintSnapshotId": "fps_2WD5CecSURRnzLBK9CUQ"})
-    print("fp", exportCreateResponse)
+    fps = "fps_2WD5CecSURRnzLBK9CUQ"
+    createFootprintRequest = post(f'v2/reporting/export', {'footprintSnapshotId': fps})
+    print("createFootprintRequest", createFootprintRequest)
+    downloadUrl = createFootprintRequest["downloadUrl"]
 
     print("Polling for export to be ready...")
-    downloadUrl = None
     while downloadUrl is None:
-        export = get(f'v2/reporting/export/{exportCreateResponse["id"]}')
-        downloadUrl = export["downloadUrl"]
-        print("export", export)
+        downloadUrl = get(f'v2/reporting/export/{createFootprintRequest["id"]}')["downloadUrl"]
+    print(downloadUrl)
+

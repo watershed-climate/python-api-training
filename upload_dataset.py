@@ -47,10 +47,10 @@ def getFlightsData():
 
 
 # TODO find these variables
-measurement_project_id = ''
-dataset_id = ''
-cts_id = ''
-cts_version_id = ''
+measurementProjectId = '' # should start with proj_
+datasetId = '' # should start with dsetpar_
+schemaId = '' # should start with cts_
+schemaVersion = ''
 
 if __name__ == "__main__":
     # Example API Query: fetch list of users in the organization
@@ -61,9 +61,9 @@ if __name__ == "__main__":
 
     # create an API upload instance
 
-    # get your API upload ID
+    # store your API upload ID
 
-    # get your data to upload
+    # find your data to upload
 
     # upload the data
 

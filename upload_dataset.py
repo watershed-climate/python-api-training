@@ -3,6 +3,8 @@ import os
 import requests
 import json
 import pandas
+import readline
+import glob
 
 
 env_token = os.getenv("WATERSHED_API_KEY")
@@ -40,33 +42,71 @@ def post(url, body):
     return request.json()
 
 
-def getFlightsData():
-    df = pandas.read_csv("Flights.csv")
+def getData(filename):
+    df = pandas.read_csv(filename)
     df = df.drop("airline", axis=1)
     return df.to_dict(orient='records')
 
 
-# TODO find these variables
-measurementProjectId = '' # should start with proj_
-datasetId = '' # should start with dsetpar_
-schemaId = '' # should start with cts_
-schemaVersion = ''
+def getDatasetAndSchemaDetails(filename):
+    datasetId = input('What is the dataset ID?\n') # should start with dsetpar_
+    schemaId = input('What is the schema ID?\n') # should start with cts_
+    schemaVersion = input('What is the schema version?\n')
+    return (datasetId, schemaId, schemaVersion)
 
-if __name__ == "__main__":
-    # Example API Query: fetch list of users in the organization
-    users = get("v2/organization/users")
-    print("Users: ", users)
 
-    ### TODO fill in the below logic
-
+def uploadFile(filename, measurementProjectId):
+    (datasetId, schemaId, schemaVersion) = getDatasetAndSchemaDetails(filename)
     # create an API upload instance
+    createUploadResult = post("v2/ingestion/uploads", {
+        "uploadSchemaId": schemaId,
+        "uploadSchemaVersion": schemaVersion,
+        "datasetId": datasetId,
+        "name": "test api upload for workshop"
+    })
+    print("createUploadResult, ", createUploadResult)
 
     # store your API upload ID
+    apiUploadId = createUploadResult["id"]
 
     # find your data to upload
+    data = getData(filename)
 
     # upload the data
+    post(f'v2/ingestion/uploads/{apiUploadId}/data', {"records": data})
 
     # validate the data
+    post(f'v2/ingestion/uploads/{apiUploadId}/validate', {})
 
     # submit the data
+    post(f'v2/ingestion/uploads/{apiUploadId}/submit', { "project_id": measurementProjectId })
+
+# chatgpt helped me with this bit
+def input_with_prefill(prompt, text=''):
+    def hook():
+        readline.insert_text(text)
+        readline.redisplay()
+    readline.set_pre_input_hook(hook)
+    try:
+        return input(prompt)
+    finally:
+        readline.set_pre_input_hook()
+
+
+def complete(text, state):
+    return (glob.glob(text + '*') + [None])[state]
+
+
+def get_file_to_process():
+    readline.parse_and_bind("tab: complete")
+    readline.set_completer(complete)
+    filename = input_with_prefill("Please enter the file to process: ")
+    return filename.strip()
+
+
+if __name__ == "__main__":
+    measurementProjectId = input('What is your measurement project ID?\n') # should start with proj_
+
+    while True:
+        filename = get_file_to_process()
+        uploadFile(filename, measurementProjectId)

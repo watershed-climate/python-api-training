@@ -1,8 +1,3 @@
 #!/bin/bash
 
 poetry install
-echo "Please enter your API key:"
-read -r -s ans
-echo "#!/bin/bash" > secrets.env
-echo "export WATERSHED_API_KEY=\"$ans\"" >> secrets.env
-echo "Successfully stored API key in secrets.env"

@@ -6,7 +6,6 @@ import pandas
 import readline
 import glob
 
-
 env_token = os.getenv("WATERSHED_API_KEY")
 token = env_token if env_token else ""
 
@@ -94,10 +93,11 @@ def input_with_prefill(prompt, text=''):
 
 
 def complete(text, state):
-    return (glob.glob(text + '*') + [None])[state]
+    return (glob.glob(os.path.expanduser(text)+'*') + [None])[state]
 
 
 def get_file_to_process():
+    readline.set_completer_delims(' \t\n;')
     readline.parse_and_bind("tab: complete")
     readline.set_completer(complete)
     filename = input_with_prefill("Please enter the file to process: ")

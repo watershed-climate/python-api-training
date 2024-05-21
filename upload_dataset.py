@@ -1,112 +1,34 @@
-
-import os
-import requests
-import json
-import pandas
-import readline
-import glob
-
-env_token = os.getenv("WATERSHED_API_KEY")
-token = env_token if env_token else ""
+import inquirer
+from src.demos import demos
+from src import post
 
 
-def fullUrl(url):
-    return "https://api.watershedclimate.com/"+url
-
-
-headers = {
-  'accept': 'application/json',
-  'content-type': 'application/json',
-  'authorization': 'Bearer '+token,
-}
-
-
-def get(url):
-    print("")
-    print("GET query to "+fullUrl(url))
-    request = requests.get(fullUrl(url), headers=headers)
-    print(f'-> reponse: {request.status_code}')
-    if request.status_code > 300:
-        print(f'-> error: {request.text}')
-    return request.json()
-
-
-def post(url, body):
-    print("")
-    print("POST query to "+fullUrl(url))
-    request = requests.post(fullUrl(url), headers=headers, data=json.dumps(body))
-    print(f'-> reponse: {request.status_code}')
-    if request.status_code > 300:
-        print(f'-> error: {request.text}')
-    return request.json()
-
-
-def getData(filename):
-    df = pandas.read_csv(filename)
-    df = df.drop("airline", axis=1)
-    return df.to_dict(orient='records')
-
-
-def getDatasetAndSchemaDetails(filename):
-    datasetId = input('What is the dataset ID?\n') # should start with dsetpar_
-    schemaId = input('What is the schema ID?\n') # should start with cts_
-    schemaVersion = input('What is the schema version?\n')
-    return (datasetId, schemaId, schemaVersion)
-
-
-def uploadFile(filename, measurementProjectId):
-    (datasetId, schemaId, schemaVersion) = getDatasetAndSchemaDetails(filename)
-    # create an API upload instance
-    createUploadResult = post("v2/ingestion/uploads", {
-        "uploadSchemaId": schemaId,
-        "uploadSchemaVersion": schemaVersion,
-        "datasetId": datasetId,
-        "name": "test api upload for workshop"
-    })
-    print("createUploadResult, ", createUploadResult)
-
-    # store your API upload ID
-    apiUploadId = createUploadResult["id"]
-
-    # find your data to upload
-    data = getData(filename)
-
-    # upload the data
-    post(f'v2/ingestion/uploads/{apiUploadId}/data', {"records": data})
-
-    # validate the data
-    post(f'v2/ingestion/uploads/{apiUploadId}/validate', {})
-
-    # submit the data
-    post(f'v2/ingestion/uploads/{apiUploadId}/submit', { "project_id": measurementProjectId })
-
-# chatgpt helped me with this bit
-def input_with_prefill(prompt, text=''):
-    def hook():
-        readline.insert_text(text)
-        readline.redisplay()
-    readline.set_pre_input_hook(hook)
-    try:
-        return input(prompt)
-    finally:
-        readline.set_pre_input_hook()
-
-
-def complete(text, state):
-    return (glob.glob(os.path.expanduser(text)+'*') + [None])[state]
-
-
-def get_file_to_process():
-    readline.set_completer_delims(' \t\n;')
-    readline.parse_and_bind("tab: complete")
-    readline.set_completer(complete)
-    filename = input_with_prefill("Please enter the file to process: ")
-    return filename.strip()
+def get_demo():
+    key = "demo"
+    questions = [
+        inquirer.List(
+            key,
+            message="What demo would you like to use",
+            choices=demos.keys(),
+        ),
+    ]
+    answers = inquirer.prompt(questions)
+    return demos[answers[key]]
 
 
 if __name__ == "__main__":
-    measurementProjectId = input('What is your measurement project ID?\n') # should start with proj_
+    demoPath = get_demo()
 
-    while True:
-        filename = get_file_to_process()
-        uploadFile(filename, measurementProjectId)
+    measurementProjectId = input('What is your measurement project ID? (hit enter to just make a new project)\n') # should start with proj_
+    if (measurementProjectId == ""):
+        result = post('v2/ingestion/projects', {
+            "name": "New Demo Project",
+            "coverageEndDate": "2023-01-01",
+            "coverageStartDate": "2022-01-01",
+            "kickoff": "2024-05-01",
+            "deadline": "2024-06-01"
+        })
+        measurementProjectId = result["id"]
+
+    for demoFile in demoPath:
+        demoFile.upload(measurementProjectId=measurementProjectId)

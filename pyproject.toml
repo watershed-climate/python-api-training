@@ -11,6 +11,9 @@ python = "^3.9"
 types-requests = "^2.31.0.20240406"
 requests = "^2.31.0"
 pandas = "^2.2.2"
+attrs = "^23.2.0"
+pandas-stubs = "^2.2.2.240514"
+inquirer = "^3.2.4"
 
 
 [build-system]

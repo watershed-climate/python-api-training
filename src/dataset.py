@@ -4,6 +4,7 @@ import requests
 import json
 import pandas
 from attrs import define
+import numpy as np
 
 
 env_token = os.getenv("WATERSHED_API_KEY")
@@ -42,7 +43,9 @@ def post(url, body):
 
 
 def getData(filename):
-    df = pandas.read_csv(filename, keep_default_na=False)
+    df = pandas.read_csv(filename)
+    # pandas reads empty cells as NaN. Convert them to None.
+    df = df.replace(np.nan, None)
     return df.to_dict(orient='records')
 
 

@@ -1,0 +1,963 @@
+﻿date,account_id,account_name,vendor,currency,cost,supplier_country,purchase_country,description_or_memo,custom_field_business_unit,custom_field_region
+1/1/22,20005,Marketing and Advertising,Google Ads,AUD,13800,,,,Business Unit Delta ,APAC
+1/1/22,20002,Office Furniture,Haworth,USD,191000,,,,Business Unit Delta ,Latin America
+1/1/22,20002,Office Furniture,Herman Miller,EUR,159000,,,,Business Unit Alpha ,Europe
+1/1/22,20011,Insurance,UnitedHealth Group,AUD,38200,,,,Business Unit Bravo,APAC
+1/1/22,20011,Insurance,Aetna,AUD,32000,,,,Business Unit Charlie,APAC
+1/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,18400,,,,Business Unit Bravo,Latin America
+1/1/22,20008,Travel Meals,American Express Global Business Travel,USD,42900,,,,Business Unit Echo,Latin America
+1/1/22,20002,Office Furniture,Steelcase,EUR,0,,,,Business Unit Charlie,Europe
+1/1/22,20001,Software,Salesforce,EUR,393000,,,,Business Unit Bravo,Europe
+1/1/22,20003,Office Supplies,W.B. Mason,USD,0,,,,Business Unit Alpha ,North America
+1/1/22,20001,Software,Google,USD,570000,,,,Business Unit Charlie,Latin America
+1/1/22,20003,Office Supplies,Amazon Business,USD,88000,,,,Business Unit Delta ,North America
+1/1/22,20006,Tax Preparation,Price Waterhouse Cooper,EUR,0,,,,Business Unit Delta ,Europe
+1/1/22,20005,Marketing and Advertising,The Trade Desk,EUR,19000,,,,Business Unit Echo,Europe
+1/1/22,20009,Computer Equipment ,Samsung,USD,0,,,,Business Unit Echo,North America
+1/1/22,20005,Marketing and Advertising,The Trade Desk,USD,28600,,,,Business Unit Bravo,North America
+1/1/22,20007,Management Consulting ,Accenture,USD,14000,,,,Business Unit Echo,Latin America
+1/1/22,20009,Computer Equipment ,Dell Technologies,USD,14800,,,,Business Unit Alpha ,North America
+1/1/22,20009,Computer Equipment ,Dell Technologies,USD,36000,,,,Business Unit Charlie,North America
+1/1/22,20001,Software,Salesforce,USD,0,,,,Business Unit Delta ,North America
+1/1/22,20007,Management Consulting ,Bain & Company,EUR,0,,,,Business Unit Charlie,Europe
+1/1/22,20001,Software,SAP,USD,432000,,,,Business Unit Delta ,North America
+1/1/22,20008,Travel Meals,Egencia,USD,31500,,,,Business Unit Delta ,Latin America
+1/1/22,20009,Computer Equipment ,Lenovo,AUD,13200,,,,Business Unit Alpha ,APAC
+1/1/22,20005,Marketing and Advertising,Instagram Ads),EUR,14400,,,,Business Unit Alpha ,Europe
+1/1/22,20001,Software,SAP,EUR,447000,,,,Business Unit Bravo,Europe
+1/1/22,20011,Insurance,Aetna,EUR,0,,,,Business Unit Delta ,Europe
+1/1/22,20008,Travel Meals,CWT,USD,43500,,,,Business Unit Echo,North America
+1/1/22,20007,Management Consulting ,Deloitte Consulting,EUR,21800,,,,Business Unit Delta ,Europe
+2/1/22,20009,Computer Equipment ,HP Inc.,AUD,0,,,,Business Unit Delta ,APAC
+2/1/22,20004,Cloud Spend,Microsoft Azure,EUR,56800,,,,Business Unit Delta ,Europe
+2/1/22,20004,Cloud Spend,Amazon Web Services (AWS),AUD,62400,,,,Business Unit Delta ,APAC
+2/1/22,20009,Computer Equipment ,Dell Technologies,EUR,38200,,,,Business Unit Charlie,Europe
+2/1/22,20002,Office Furniture,Herman Miller,USD,74000,,,,Business Unit Alpha ,Latin America
+2/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),AUD,0,,,,Business Unit Echo,APAC
+2/1/22,20007,Management Consulting ,McKinsey & Company,USD,0,,,,Business Unit Alpha ,Latin America
+2/1/22,20007,Management Consulting ,Accenture,AUD,25800,,,,Business Unit Delta ,APAC
+2/1/22,20004,Cloud Spend,Amazon Web Services (AWS),USD,70800,,,,Business Unit Delta ,Latin America
+2/1/22,20003,Office Supplies,Staples,USD,146000,,,,Business Unit Charlie,Latin America
+2/1/22,20003,Office Supplies,Office Depot,AUD,84000,,,,Business Unit Echo,APAC
+2/1/22,20004,Cloud Spend,Amazon Web Services (AWS),USD,68800,,,,Business Unit Charlie,Latin America
+2/1/22,20007,Management Consulting ,McKinsey & Company,AUD,28200,,,,Business Unit Bravo,APAC
+2/1/22,20004,Cloud Spend,Salesforce,AUD,33600,,,,Business Unit Delta ,APAC
+2/1/22,20008,Travel Meals,Egencia,EUR,59700,,,,Business Unit Alpha ,Europe
+2/1/22,20008,Travel Meals,BCD Travel,EUR,31200,,,,Business Unit Charlie,Europe
+2/1/22,20010,Trade Shows,Reed Exhibitions,EUR,17700,,,,Business Unit Alpha ,Europe
+2/1/22,20007,Management Consulting ,Bain & Company,USD,35800,,,,Business Unit Charlie,Latin America
+2/1/22,20006,Tax Preparation,H&R Block,USD,11600,,,,Business Unit Alpha ,North America
+2/1/22,20009,Computer Equipment ,HP Inc.,EUR,30400,,,,Business Unit Bravo,Europe
+2/1/22,20002,Office Furniture,Haworth,AUD,114000,,,,Business Unit Bravo,APAC
+2/1/22,20006,Tax Preparation,Price Waterhouse Cooper,EUR,15400,,,,Business Unit Alpha ,Europe
+2/1/22,20009,Computer Equipment ,Apple,USD,16600,,,,Business Unit Alpha ,Latin America
+2/1/22,20009,Computer Equipment ,Apple,AUD,0,,,,Business Unit Charlie,APAC
+2/1/22,20004,Cloud Spend,Amazon Web Services (AWS),USD,0,,,,Business Unit Echo,North America
+2/1/22,20011,Insurance,Cigna,USD,12000,,,,Business Unit Charlie,Latin America
+2/1/22,20005,Marketing and Advertising,Google Ads,USD,11800,,,,Business Unit Echo,Latin America
+2/1/22,20011,Insurance,Anthem Inc.,EUR,16400,,,,Business Unit Bravo,Europe
+2/1/22,20002,Office Furniture,Kimball International,AUD,61000,,,,Business Unit Charlie,APAC
+3/1/22,20003,Office Supplies,Office Depot,USD,0,,,,Business Unit Echo,North America
+3/1/22,20002,Office Furniture,Kimball International,AUD,94000,,,,Business Unit Delta ,APAC
+3/1/22,20011,Insurance,Humana,AUD,36600,,,,Business Unit Charlie,APAC
+3/1/22,20011,Insurance,Cigna,AUD,30600,,,,Business Unit Charlie,APAC
+3/1/22,20011,Insurance,Anthem Inc.,USD,15600,,,,Business Unit Charlie,North America
+3/1/22,20006,Tax Preparation,Price Waterhouse Cooper,AUD,13100,,,,Business Unit Alpha ,APAC
+3/1/22,20007,Management Consulting ,The Boston Consulting Group,USD,36600,,,,Business Unit Charlie,North America
+3/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,5000,,,,Business Unit Charlie,Latin America
+3/1/22,20011,Insurance,Anthem Inc.,AUD,34800,,,,Business Unit Bravo,APAC
+3/1/22,20011,Insurance,Cigna,AUD,38600,,,,Business Unit Charlie,APAC
+3/1/22,20002,Office Furniture,Steelcase,AUD,129000,,,,Business Unit Echo,APAC
+3/1/22,20004,Cloud Spend,Amazon Web Services (AWS),USD,72800,,,,Business Unit Delta ,North America
+3/1/22,20005,Marketing and Advertising,Google Ads,AUD,10800,,,,Business Unit Alpha ,APAC
+3/1/22,20007,Management Consulting ,The Boston Consulting Group,AUD,15800,,,,Business Unit Delta ,APAC
+3/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),AUD,22800,,,,Business Unit Alpha ,APAC
+3/1/22,20006,Tax Preparation,Jackson Hewitt,AUD,5900,,,,Business Unit Bravo,APAC
+3/1/22,20001,Software,SAP,USD,366000,,,,Business Unit Bravo,Latin America
+3/1/22,20007,Management Consulting ,The Boston Consulting Group,USD,16400,,,,Business Unit Charlie,North America
+3/1/22,20004,Cloud Spend,Microsoft Azure,AUD,68800,,,,Business Unit Alpha ,APAC
+3/1/22,20010,Trade Shows,Reed Exhibitions,AUD,36600,,,,Business Unit Bravo,APAC
+3/1/22,20007,Management Consulting ,Bain & Company,USD,30400,,,,Business Unit Delta ,North America
+3/1/22,20011,Insurance,Aetna,EUR,21000,,,,Business Unit Delta ,Europe
+3/1/22,20006,Tax Preparation,Jackson Hewitt,USD,11000,,,,Business Unit Charlie,Latin America
+3/1/22,20002,Office Furniture,HON Company,USD,118000,,,,Business Unit Delta ,Latin America
+3/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),EUR,62800,,,,Business Unit Echo,Europe
+3/1/22,20011,Insurance,Humana,EUR,12200,,,,Business Unit Echo,Europe
+3/1/22,20009,Computer Equipment ,Apple,USD,0,,,,Business Unit Charlie,North America
+3/1/22,20009,Computer Equipment ,HP Inc.,USD,35000,,,,Business Unit Alpha ,Latin America
+3/1/22,20001,Software,SAP,AUD,588000,,,,Business Unit Alpha ,APAC
+4/1/22,20009,Computer Equipment ,Apple,USD,22400,,,,Business Unit Alpha ,North America
+4/1/22,20002,Office Furniture,Herman Miller,USD,74000,,,,Business Unit Bravo,Latin America
+4/1/22,20001,Software,Salesforce,USD,156000,,,,Business Unit Bravo,North America
+4/1/22,20011,Insurance,UnitedHealth Group,EUR,30600,,,,Business Unit Echo,Europe
+4/1/22,20009,Computer Equipment ,Dell Technologies,USD,0,,,,Business Unit Alpha ,Latin America
+4/1/22,20003,Office Supplies,Quill,USD,167000,,,,Business Unit Delta ,Latin America
+4/1/22,20008,Travel Meals,CWT,USD,44400,,,,Business Unit Charlie,Latin America
+4/1/22,20003,Office Supplies,Quill,USD,196000,,,,Business Unit Delta ,Latin America
+4/1/22,20004,Cloud Spend,Microsoft Azure,USD,29200,,,,Business Unit Echo,North America
+4/1/22,20005,Marketing and Advertising,Google Ads,EUR,27800,,,,Business Unit Alpha ,Europe
+4/1/22,20004,Cloud Spend,Amazon Web Services (AWS),EUR,52800,,,,Business Unit Alpha ,Europe
+4/1/22,20009,Computer Equipment ,HP Inc.,AUD,29200,,,,Business Unit Charlie,APAC
+4/1/22,20006,Tax Preparation,H&R Block,EUR,0,,,,Business Unit Echo,Europe
+4/1/22,20008,Travel Meals,Egencia,AUD,41700,,,,Business Unit Bravo,APAC
+4/1/22,20001,Software,Oracle,USD,180000,,,,Business Unit Delta ,Latin America
+4/1/22,20006,Tax Preparation,Ernst & Young,EUR,13200,,,,Business Unit Delta ,Europe
+4/1/22,20010,Trade Shows,Informa PLC,EUR,45300,,,,Business Unit Delta ,Europe
+4/1/22,20006,Tax Preparation,TaxAct,USD,13500,,,,Business Unit Charlie,Latin America
+4/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,7200,,,,Business Unit Delta ,Latin America
+4/1/22,20004,Cloud Spend,IBM Cloud,AUD,0,,,,Business Unit Charlie,APAC
+4/1/22,20005,Marketing and Advertising,The Trade Desk,AUD,0,,,,Business Unit Alpha ,APAC
+4/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),USD,46800,,,,Business Unit Bravo,North America
+4/1/22,20003,Office Supplies,Office Depot,USD,106000,,,,Business Unit Echo,North America
+4/1/22,20003,Office Supplies,Quill,USD,0,,,,Business Unit Echo,North America
+4/1/22,20011,Insurance,Anthem Inc.,USD,23800,,,,Business Unit Echo,North America
+4/1/22,20003,Office Supplies,Amazon Business,EUR,0,,,,Business Unit Delta ,Europe
+4/1/22,20010,Trade Shows,Informa PLC,EUR,0,,,,Business Unit Bravo,Europe
+4/1/22,20001,Software,Oracle,EUR,0,,,,Business Unit Bravo,Europe
+4/1/22,20001,Software,SAP,AUD,300000,,,,Business Unit Echo,APAC
+5/1/22,20002,Office Furniture,Herman Miller,AUD,192000,,,,Business Unit Echo,APAC
+5/1/22,20005,Marketing and Advertising,The Trade Desk,EUR,0,,,,Business Unit Charlie,Europe
+5/1/22,20002,Office Furniture,Herman Miller,USD,73000,,,,Business Unit Delta ,North America
+5/1/22,20009,Computer Equipment ,Apple,AUD,29000,,,,Business Unit Charlie,APAC
+5/1/22,20006,Tax Preparation,Jackson Hewitt,AUD,18600,,,,Business Unit Alpha ,APAC
+5/1/22,20006,Tax Preparation,H&R Block,USD,13200,,,,Business Unit Bravo,North America
+5/1/22,20011,Insurance,UnitedHealth Group,USD,16400,,,,Business Unit Delta ,Latin America
+5/1/22,20001,Software,Oracle,USD,519000,,,,Business Unit Bravo,North America
+5/1/22,20011,Insurance,Cigna,USD,0,,,,Business Unit Bravo,Latin America
+5/1/22,20011,Insurance,Humana,USD,28200,,,,Business Unit Echo,Latin America
+5/1/22,20001,Software,SAP,USD,441000,,,,Business Unit Delta ,North America
+5/1/22,20003,Office Supplies,Amazon Business,USD,119000,,,,Business Unit Alpha ,Latin America
+5/1/22,20009,Computer Equipment ,Samsung,EUR,0,,,,Business Unit Delta ,Europe
+5/1/22,20003,Office Supplies,Quill,EUR,181000,,,,Business Unit Charlie,Europe
+5/1/22,20006,Tax Preparation,Ernst & Young,USD,10000,,,,Business Unit Alpha ,North America
+5/1/22,20011,Insurance,UnitedHealth Group,USD,0,,,,Business Unit Charlie,North America
+5/1/22,20008,Travel Meals,Travelocity Business,EUR,0,,,,Business Unit Echo,Europe
+5/1/22,20003,Office Supplies,Amazon Business,AUD,65000,,,,Business Unit Echo,APAC
+5/1/22,20009,Computer Equipment ,Apple,AUD,12600,,,,Business Unit Charlie,APAC
+5/1/22,20004,Cloud Spend,Amazon Web Services (AWS),USD,0,,,,Business Unit Delta ,Latin America
+5/1/22,20005,Marketing and Advertising,Google Ads,USD,10400,,,,Business Unit Delta ,North America
+5/1/22,20003,Office Supplies,W.B. Mason,USD,81000,,,,Business Unit Charlie,North America
+5/1/22,20010,Trade Shows,Informa PLC,EUR,18900,,,,Business Unit Delta ,Europe
+5/1/22,20004,Cloud Spend,IBM Cloud,USD,71200,,,,Business Unit Echo,North America
+5/1/22,20006,Tax Preparation,TaxAct,AUD,18500,,,,Business Unit Delta ,APAC
+5/1/22,20010,Trade Shows,Informa PLC,EUR,0,,,,Business Unit Charlie,Europe
+5/1/22,20011,Insurance,Anthem Inc.,USD,0,,,,Business Unit Bravo,Latin America
+5/1/22,20005,Marketing and Advertising,Google Ads,USD,0,,,,Business Unit Bravo,Latin America
+5/1/22,20002,Office Furniture,Kimball International,AUD,117000,,,,Business Unit Echo,APAC
+6/1/22,20003,Office Supplies,Amazon Business,USD,0,,,,Business Unit Delta ,Latin America
+6/1/22,20003,Office Supplies,Quill,USD,124000,,,,Business Unit Alpha ,North America
+6/1/22,20007,Management Consulting ,Bain & Company,AUD,31800,,,,Business Unit Echo,APAC
+6/1/22,20001,Software,Oracle,AUD,330000,,,,Business Unit Charlie,APAC
+6/1/22,20010,Trade Shows,Deutsche Messe AG,AUD,57300,,,,Business Unit Alpha ,APAC
+6/1/22,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,USD,25000,,,,Business Unit Charlie,North America
+6/1/22,20010,Trade Shows,Informa PLC,AUD,25500,,,,Business Unit Charlie,APAC
+6/1/22,20011,Insurance,UnitedHealth Group,AUD,24800,,,,Business Unit Delta ,APAC
+6/1/22,20001,Software,Oracle,USD,315000,,,,Business Unit Delta ,North America
+6/1/22,20001,Software,Oracle,EUR,372000,,,,Business Unit Alpha ,Europe
+6/1/22,20008,Travel Meals,CWT,AUD,31500,,,,Business Unit Bravo,APAC
+6/1/22,20003,Office Supplies,W.B. Mason,AUD,56000,,,,Business Unit Bravo,APAC
+6/1/22,20003,Office Supplies,Amazon Business,EUR,70000,,,,Business Unit Delta ,Europe
+6/1/22,20009,Computer Equipment ,Dell Technologies,USD,39000,,,,Business Unit Charlie,Latin America
+6/1/22,20003,Office Supplies,W.B. Mason,USD,0,,,,Business Unit Echo,Latin America
+6/1/22,20001,Software,Microsoft,USD,549000,,,,Business Unit Echo,Latin America
+6/1/22,20007,Management Consulting ,Bain & Company,USD,21800,,,,Business Unit Echo,North America
+6/1/22,20009,Computer Equipment ,Lenovo,EUR,0,,,,Business Unit Charlie,Europe
+6/1/22,20005,Marketing and Advertising,The Trade Desk,AUD,0,,,,Business Unit Alpha ,APAC
+6/1/22,20007,Management Consulting ,Deloitte Consulting,USD,28800,,,,Business Unit Bravo,North America
+6/1/22,20002,Office Furniture,Herman Miller,USD,79000,,,,Business Unit Bravo,North America
+6/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,39600,,,,Business Unit Delta ,North America
+6/1/22,20004,Cloud Spend,Salesforce,AUD,58000,,,,Business Unit Alpha ,APAC
+6/1/22,20004,Cloud Spend,IBM Cloud,USD,0,,,,Business Unit Delta ,Latin America
+6/1/22,20010,Trade Shows,Informa PLC,EUR,0,,,,Business Unit Delta ,Europe
+6/1/22,20011,Insurance,UnitedHealth Group,AUD,25400,,,,Business Unit Echo,APAC
+6/1/22,20006,Tax Preparation,TaxAct,USD,0,,,,Business Unit Charlie,North America
+6/1/22,20006,Tax Preparation,Jackson Hewitt,AUD,11800,,,,Business Unit Echo,APAC
+6/1/22,20010,Trade Shows,Deutsche Messe AG,AUD,55200,,,,Business Unit Charlie,APAC
+7/1/22,20008,Travel Meals,Travelocity Business,USD,43200,,,,Business Unit Delta ,North America
+7/1/22,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,AUD,35800,,,,Business Unit Delta ,APAC
+7/1/22,20010,Trade Shows,Reed Exhibitions,AUD,34500,,,,Business Unit Charlie,APAC
+7/1/22,20005,Marketing and Advertising,Instagram Ads),EUR,21600,,,,Business Unit Echo,Europe
+7/1/22,20007,Management Consulting ,Accenture,USD,0,,,,Business Unit Alpha ,Latin America
+7/1/22,20005,Marketing and Advertising,Instagram Ads),USD,0,,,,Business Unit Bravo,North America
+7/1/22,20001,Software,Microsoft,USD,219000,,,,Business Unit Alpha ,North America
+7/1/22,20005,Marketing and Advertising,Amazon Advertising,AUD,36000,,,,Business Unit Delta ,APAC
+7/1/22,20008,Travel Meals,CWT,EUR,42600,,,,Business Unit Delta ,Europe
+7/1/22,20008,Travel Meals,Travelocity Business,USD,18600,,,,Business Unit Delta ,Latin America
+7/1/22,20007,Management Consulting ,Bain & Company,USD,0,,,,Business Unit Echo,North America
+7/1/22,20007,Management Consulting ,Bain & Company,EUR,25200,,,,Business Unit Bravo,Europe
+7/1/22,20010,Trade Shows,Deutsche Messe AG,EUR,42300,,,,Business Unit Alpha ,Europe
+7/1/22,20008,Travel Meals,American Express Global Business Travel,AUD,30300,,,,Business Unit Echo,APAC
+7/1/22,20003,Office Supplies,Amazon Business,USD,191000,,,,Business Unit Echo,Latin America
+7/1/22,20005,Marketing and Advertising,Instagram Ads),AUD,12600,,,,Business Unit Bravo,APAC
+7/1/22,20001,Software,Microsoft,USD,150000,,,,Business Unit Alpha ,North America
+7/1/22,20009,Computer Equipment ,Apple,USD,0,,,,Business Unit Charlie,North America
+7/1/22,20007,Management Consulting ,Accenture,USD,14400,,,,Business Unit Charlie,Latin America
+7/1/22,20005,Marketing and Advertising,The Trade Desk,AUD,30000,,,,Business Unit Alpha ,APAC
+7/1/22,20010,Trade Shows,Deutsche Messe AG,USD,41400,,,,Business Unit Alpha ,North America
+7/1/22,20006,Tax Preparation,TaxAct,USD,7500,,,,Business Unit Charlie,North America
+7/1/22,20011,Insurance,Anthem Inc.,EUR,23000,,,,Business Unit Delta ,Europe
+7/1/22,20002,Office Furniture,HON Company,AUD,0,,,,Business Unit Delta ,APAC
+7/1/22,20010,Trade Shows,Deutsche Messe AG,USD,23700,,,,Business Unit Delta ,Latin America
+7/1/22,20002,Office Furniture,Kimball International,AUD,0,,,,Business Unit Delta ,APAC
+7/1/22,20011,Insurance,Aetna,EUR,0,,,,Business Unit Echo,Europe
+7/1/22,20005,Marketing and Advertising,Instagram Ads),USD,15000,,,,Business Unit Delta ,Latin America
+7/1/22,20003,Office Supplies,Office Depot,USD,191000,,,,Business Unit Delta ,North America
+8/1/22,20002,Office Furniture,Haworth,AUD,134000,,,,Business Unit Delta ,APAC
+8/1/22,20002,Office Furniture,Kimball International,USD,0,,,,Business Unit Echo,Latin America
+8/1/22,20004,Cloud Spend,Microsoft Azure,EUR,47200,,,,Business Unit Echo,Europe
+8/1/22,20002,Office Furniture,Kimball International,AUD,116000,,,,Business Unit Echo,APAC
+8/1/22,20008,Travel Meals,CWT,USD,48900,,,,Business Unit Echo,Latin America
+8/1/22,20010,Trade Shows,Comexposium Group,EUR,0,,,,Business Unit Charlie,Europe
+8/1/22,20001,Software,Google,EUR,576000,,,,Business Unit Delta ,Europe
+8/1/22,20011,Insurance,Cigna,EUR,38400,,,,Business Unit Charlie,Europe
+8/1/22,20007,Management Consulting ,Deloitte Consulting,USD,22800,,,,Business Unit Bravo,Latin America
+8/1/22,20005,Marketing and Advertising,Google Ads,USD,14800,,,,Business Unit Alpha ,North America
+8/1/22,20001,Software,Salesforce,EUR,414000,,,,Business Unit Bravo,Europe
+8/1/22,20004,Cloud Spend,Microsoft Azure,AUD,48800,,,,Business Unit Alpha ,APAC
+8/1/22,20006,Tax Preparation,TaxAct,USD,0,,,,Business Unit Bravo,North America
+8/1/22,20001,Software,Microsoft,USD,165000,,,,Business Unit Alpha ,North America
+8/1/22,20005,Marketing and Advertising,Instagram Ads),USD,15600,,,,Business Unit Delta ,North America
+8/1/22,20002,Office Furniture,HON Company,USD,0,,,,Business Unit Echo,Latin America
+8/1/22,20011,Insurance,Humana,AUD,14000,,,,Business Unit Charlie,APAC
+8/1/22,20007,Management Consulting ,Accenture,EUR,29600,,,,Business Unit Delta ,Europe
+8/1/22,20009,Computer Equipment ,Apple,USD,29600,,,,Business Unit Delta ,Latin America
+8/1/22,20005,Marketing and Advertising,Google Ads,AUD,24000,,,,Business Unit Bravo,APAC
+8/1/22,20004,Cloud Spend,Amazon Web Services (AWS),EUR,0,,,,Business Unit Bravo,Europe
+8/1/22,20006,Tax Preparation,Jackson Hewitt,AUD,10800,,,,Business Unit Bravo,APAC
+8/1/22,20003,Office Supplies,Quill,USD,98000,,,,Business Unit Charlie,Latin America
+8/1/22,20001,Software,Salesforce,EUR,372000,,,,Business Unit Alpha ,Europe
+8/1/22,20005,Marketing and Advertising,Instagram Ads),AUD,32400,,,,Business Unit Echo,APAC
+8/1/22,20007,Management Consulting ,Bain & Company,USD,11600,,,,Business Unit Bravo,North America
+8/1/22,20001,Software,Google,USD,0,,,,Business Unit Echo,North America
+8/1/22,20004,Cloud Spend,Salesforce,AUD,70400,,,,Business Unit Delta ,APAC
+8/1/22,20006,Tax Preparation,TaxAct,USD,14300,,,,Business Unit Delta ,Latin America
+9/1/22,20007,Management Consulting ,Bain & Company,USD,32000,,,,Business Unit Bravo,Latin America
+9/1/22,20005,Marketing and Advertising,Instagram Ads),USD,35200,,,,Business Unit Charlie,Latin America
+9/1/22,20010,Trade Shows,Informa PLC,EUR,0,,,,Business Unit Alpha ,Europe
+9/1/22,20007,Management Consulting ,Deloitte Consulting,EUR,38600,,,,Business Unit Alpha ,Europe
+9/1/22,20005,Marketing and Advertising,Amazon Advertising,AUD,31000,,,,Business Unit Charlie,APAC
+9/1/22,20003,Office Supplies,Staples,AUD,100000,,,,Business Unit Alpha ,APAC
+9/1/22,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,USD,33400,,,,Business Unit Charlie,Latin America
+9/1/22,20007,Management Consulting ,McKinsey & Company,AUD,21400,,,,Business Unit Charlie,APAC
+9/1/22,20004,Cloud Spend,Microsoft Azure,AUD,60000,,,,Business Unit Echo,APAC
+9/1/22,20007,Management Consulting ,The Boston Consulting Group,USD,0,,,,Business Unit Alpha ,North America
+9/1/22,20009,Computer Equipment ,HP Inc.,USD,22800,,,,Business Unit Alpha ,North America
+9/1/22,20001,Software,Microsoft,USD,321000,,,,Business Unit Delta ,North America
+9/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,30800,,,,Business Unit Echo,Latin America
+9/1/22,20009,Computer Equipment ,Lenovo,EUR,10800,,,,Business Unit Bravo,Europe
+9/1/22,20001,Software,Oracle,USD,597000,,,,Business Unit Bravo,Latin America
+9/1/22,20011,Insurance,Aetna,USD,0,,,,Business Unit Alpha ,North America
+9/1/22,20010,Trade Shows,Reed Exhibitions,USD,39000,,,,Business Unit Delta ,Latin America
+9/1/22,20010,Trade Shows,Deutsche Messe AG,USD,50400,,,,Business Unit Echo,Latin America
+9/1/22,20009,Computer Equipment ,Apple,EUR,34000,,,,Business Unit Alpha ,Europe
+9/1/22,20002,Office Furniture,Steelcase,AUD,59000,,,,Business Unit Alpha ,APAC
+9/1/22,20003,Office Supplies,Quill,USD,107000,,,,Business Unit Echo,Latin America
+9/1/22,20010,Trade Shows,Informa PLC,EUR,56100,,,,Business Unit Charlie,Europe
+9/1/22,20006,Tax Preparation,TaxAct,AUD,0,,,,Business Unit Alpha ,APAC
+9/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),AUD,24400,,,,Business Unit Charlie,APAC
+9/1/22,20005,Marketing and Advertising,Google Ads,EUR,0,,,,Business Unit Delta ,Europe
+9/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,17000,,,,Business Unit Bravo,North America
+9/1/22,20011,Insurance,Humana,AUD,23200,,,,Business Unit Alpha ,APAC
+9/1/22,20005,Marketing and Advertising,The Trade Desk,USD,19800,,,,Business Unit Echo,Latin America
+9/1/22,20001,Software,Google,AUD,456000,,,,Business Unit Echo,APAC
+10/1/22,20010,Trade Shows,Informa PLC,EUR,55800,,,,Business Unit Delta ,Europe
+10/1/22,20001,Software,Google,EUR,360000,,,,Business Unit Delta ,Europe
+10/1/22,20008,Travel Meals,Egencia,AUD,27000,,,,Business Unit Alpha ,APAC
+10/1/22,20007,Management Consulting ,Deloitte Consulting,AUD,36200,,,,Business Unit Alpha ,APAC
+10/1/22,20008,Travel Meals,BCD Travel,AUD,35400,,,,Business Unit Alpha ,APAC
+10/1/22,20002,Office Furniture,Kimball International,AUD,132000,,,,Business Unit Echo,APAC
+10/1/22,20003,Office Supplies,Quill,AUD,84000,,,,Business Unit Alpha ,APAC
+10/1/22,20010,Trade Shows,Diversified Business Communications,AUD,19800,,,,Business Unit Echo,APAC
+10/1/22,20007,Management Consulting ,Deloitte Consulting,USD,0,,,,Business Unit Alpha ,Latin America
+10/1/22,20010,Trade Shows,Deutsche Messe AG,AUD,33300,,,,Business Unit Echo,APAC
+10/1/22,20001,Software,Oracle,USD,276000,,,,Business Unit Delta ,Latin America
+10/1/22,20003,Office Supplies,Staples,USD,105000,,,,Business Unit Echo,Latin America
+10/1/22,20010,Trade Shows,Deutsche Messe AG,USD,27000,,,,Business Unit Bravo,North America
+10/1/22,20008,Travel Meals,American Express Global Business Travel,AUD,0,,,,Business Unit Delta ,APAC
+10/1/22,20004,Cloud Spend,Amazon Web Services (AWS),USD,30000,,,,Business Unit Echo,North America
+10/1/22,20001,Software,Oracle,USD,258000,,,,Business Unit Alpha ,North America
+10/1/22,20010,Trade Shows,Diversified Business Communications,AUD,29700,,,,Business Unit Alpha ,APAC
+10/1/22,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,AUD,34400,,,,Business Unit Alpha ,APAC
+10/1/22,20006,Tax Preparation,TaxAct,USD,18000,,,,Business Unit Bravo,Latin America
+10/1/22,20006,Tax Preparation,TaxAct,EUR,6900,,,,Business Unit Charlie,Europe
+10/1/22,20011,Insurance,Cigna,AUD,30600,,,,Business Unit Echo,APAC
+10/1/22,20005,Marketing and Advertising,The Trade Desk,USD,32800,,,,Business Unit Alpha ,North America
+10/1/22,20004,Cloud Spend,Microsoft Azure,USD,46400,,,,Business Unit Charlie,North America
+10/1/22,20004,Cloud Spend,Microsoft Azure,USD,58400,,,,Business Unit Delta ,Latin America
+10/1/22,20010,Trade Shows,Diversified Business Communications,EUR,0,,,,Business Unit Bravo,Europe
+10/1/22,20008,Travel Meals,American Express Global Business Travel,USD,16800,,,,Business Unit Echo,Latin America
+10/1/22,20006,Tax Preparation,TaxAct,EUR,19100,,,,Business Unit Bravo,Europe
+10/1/22,20007,Management Consulting ,McKinsey & Company,AUD,0,,,,Business Unit Charlie,APAC
+10/1/22,20001,Software,Google,EUR,0,,,,Business Unit Bravo,Europe
+11/1/22,20011,Insurance,Humana,AUD,15000,,,,Business Unit Bravo,APAC
+11/1/22,20004,Cloud Spend,Salesforce,AUD,28800,,,,Business Unit Bravo,APAC
+11/1/22,20004,Cloud Spend,Amazon Web Services (AWS),USD,63600,,,,Business Unit Alpha ,Latin America
+11/1/22,20011,Insurance,UnitedHealth Group,EUR,39600,,,,Business Unit Delta ,Europe
+11/1/22,20006,Tax Preparation,Ernst & Young,AUD,9700,,,,Business Unit Delta ,APAC
+11/1/22,20007,Management Consulting ,Deloitte Consulting,EUR,0,,,,Business Unit Delta ,Europe
+11/1/22,20006,Tax Preparation,Price Waterhouse Cooper,AUD,15400,,,,Business Unit Delta ,APAC
+11/1/22,20001,Software,Salesforce,USD,378000,,,,Business Unit Charlie,North America
+11/1/22,20010,Trade Shows,Informa PLC,AUD,0,,,,Business Unit Alpha ,APAC
+11/1/22,20002,Office Furniture,HON Company,USD,198000,,,,Business Unit Charlie,North America
+11/1/22,20007,Management Consulting ,Bain & Company,EUR,29200,,,,Business Unit Charlie,Europe
+11/1/22,20011,Insurance,UnitedHealth Group,EUR,19400,,,,Business Unit Echo,Europe
+11/1/22,20011,Insurance,Cigna,EUR,0,,,,Business Unit Delta ,Europe
+11/1/22,20003,Office Supplies,W.B. Mason,USD,151000,,,,Business Unit Echo,North America
+11/1/22,20007,Management Consulting ,The Boston Consulting Group,EUR,14600,,,,Business Unit Bravo,Europe
+11/1/22,20002,Office Furniture,Herman Miller,USD,83000,,,,Business Unit Delta ,Latin America
+11/1/22,20002,Office Furniture,Kimball International,EUR,93000,,,,Business Unit Echo,Europe
+11/1/22,20006,Tax Preparation,Price Waterhouse Cooper,EUR,10300,,,,Business Unit Alpha ,Europe
+11/1/22,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,AUD,19600,,,,Business Unit Delta ,APAC
+11/1/22,20009,Computer Equipment ,Samsung,USD,30000,,,,Business Unit Alpha ,North America
+11/1/22,20007,Management Consulting ,McKinsey & Company,AUD,39800,,,,Business Unit Bravo,APAC
+11/1/22,20010,Trade Shows,Informa PLC,USD,45300,,,,Business Unit Charlie,Latin America
+11/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),AUD,42800,,,,Business Unit Bravo,APAC
+11/1/22,20011,Insurance,UnitedHealth Group,USD,27200,,,,Business Unit Echo,North America
+11/1/22,20001,Software,Salesforce,EUR,453000,,,,Business Unit Charlie,Europe
+11/1/22,20001,Software,Microsoft,USD,456000,,,,Business Unit Echo,Latin America
+11/1/22,20010,Trade Shows,Informa PLC,EUR,32700,,,,Business Unit Delta ,Europe
+11/1/22,20006,Tax Preparation,H&R Block,USD,0,,,,Business Unit Alpha ,Latin America
+11/1/22,20002,Office Furniture,Steelcase,AUD,75000,,,,Business Unit Charlie,APAC
+12/1/22,20003,Office Supplies,Office Depot,USD,0,,,,Business Unit Alpha ,Latin America
+12/1/22,20002,Office Furniture,Steelcase,EUR,0,,,,Business Unit Charlie,Europe
+12/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),EUR,57200,,,,Business Unit Echo,Europe
+12/1/22,20007,Management Consulting ,Bain & Company,USD,18000,,,,Business Unit Echo,Latin America
+12/1/22,20002,Office Furniture,HON Company,USD,147000,,,,Business Unit Alpha ,North America
+12/1/22,20008,Travel Meals,American Express Global Business Travel,USD,37500,,,,Business Unit Charlie,North America
+12/1/22,20009,Computer Equipment ,Lenovo,USD,36800,,,,Business Unit Charlie,North America
+12/1/22,20006,Tax Preparation,Jackson Hewitt,USD,13500,,,,Business Unit Delta ,North America
+12/1/22,20004,Cloud Spend,IBM Cloud,USD,43200,,,,Business Unit Bravo,Latin America
+12/1/22,20010,Trade Shows,Deutsche Messe AG,EUR,44700,,,,Business Unit Delta ,Europe
+12/1/22,20002,Office Furniture,Kimball International,EUR,123000,,,,Business Unit Echo,Europe
+12/1/22,20011,Insurance,Humana,EUR,27800,,,,Business Unit Bravo,Europe
+12/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,35800,,,,Business Unit Echo,North America
+12/1/22,20006,Tax Preparation,Jackson Hewitt,USD,0,,,,Business Unit Echo,Latin America
+12/1/22,20009,Computer Equipment ,HP Inc.,AUD,38400,,,,Business Unit Charlie,APAC
+12/1/22,20001,Software,Salesforce,AUD,351000,,,,Business Unit Delta ,APAC
+12/1/22,20004,Cloud Spend,Microsoft Azure,USD,60000,,,,Business Unit Alpha ,North America
+12/1/22,20010,Trade Shows,Comexposium Group,EUR,21000,,,,Business Unit Alpha ,Europe
+12/1/22,20006,Tax Preparation,Ernst & Young,USD,0,,,,Business Unit Bravo,Latin America
+12/1/22,20004,Cloud Spend,Salesforce,USD,42800,,,,Business Unit Echo,Latin America
+12/1/22,20003,Office Supplies,Staples,USD,59000,,,,Business Unit Charlie,Latin America
+12/1/22,20003,Office Supplies,Amazon Business,EUR,64000,,,,Business Unit Echo,Europe
+12/1/22,20004,Cloud Spend,Salesforce,USD,67600,,,,Business Unit Charlie,North America
+12/1/22,20011,Insurance,Humana,USD,35800,,,,Business Unit Alpha ,Latin America
+12/1/22,20010,Trade Shows,Diversified Business Communications,USD,54600,,,,Business Unit Echo,North America
+12/1/22,20009,Computer Equipment ,Apple,EUR,0,,,,Business Unit Charlie,Europe
+12/1/22,20004,Cloud Spend,Microsoft Azure,USD,70800,,,,Business Unit Echo,North America
+12/1/22,20010,Trade Shows,Comexposium Group,USD,45000,,,,Business Unit Alpha ,Latin America
+12/1/22,20003,Office Supplies,Amazon Business,USD,87000,,,,Business Unit Charlie,North America
+1/1/23,20007,Management Consulting ,The Boston Consulting Group,USD,0,,,,Business Unit Delta ,North America
+1/1/23,20001,Software,Microsoft,AUD,561000,,,,Business Unit Alpha ,APAC
+1/1/23,20008,Travel Meals,BCD Travel,USD,24900,,,,Business Unit Alpha ,Latin America
+1/1/23,20010,Trade Shows,Deutsche Messe AG,EUR,35100,,,,Business Unit Charlie,Europe
+1/1/23,20007,Management Consulting ,Accenture,AUD,31200,,,,Business Unit Alpha ,APAC
+1/1/23,20010,Trade Shows,Reed Exhibitions,USD,50400,,,,Business Unit Alpha ,North America
+1/1/23,20007,Management Consulting ,The Boston Consulting Group,AUD,34000,,,,Business Unit Echo,APAC
+1/1/23,20006,Tax Preparation,TaxAct,AUD,17900,,,,Business Unit Echo,APAC
+1/1/23,20007,Management Consulting ,Accenture,EUR,28600,,,,Business Unit Bravo,Europe
+1/1/23,20004,Cloud Spend,Amazon Web Services (AWS),EUR,47600,,,,Business Unit Echo,Europe
+1/1/23,20008,Travel Meals,American Express Global Business Travel,USD,22500,,,,Business Unit Alpha ,North America
+1/1/23,20006,Tax Preparation,TaxAct,USD,15600,,,,Business Unit Delta ,Latin America
+1/1/23,20011,Insurance,Aetna,USD,0,,,,Business Unit Alpha ,North America
+1/1/23,20002,Office Furniture,Herman Miller,USD,189000,,,,Business Unit Charlie,North America
+1/1/23,20009,Computer Equipment ,Samsung,USD,0,,,,Business Unit Delta ,Latin America
+1/1/23,20002,Office Furniture,Haworth,USD,78000,,,,Business Unit Charlie,North America
+1/1/23,20011,Insurance,Humana,USD,35200,,,,Business Unit Alpha ,North America
+1/1/23,20005,Marketing and Advertising,The Trade Desk,USD,0,,,,Business Unit Echo,North America
+1/1/23,20003,Office Supplies,W.B. Mason,AUD,81000,,,,Business Unit Echo,APAC
+1/1/23,20007,Management Consulting ,Bain & Company,USD,22000,,,,Business Unit Bravo,North America
+1/1/23,20003,Office Supplies,Office Depot,EUR,200000,,,,Business Unit Alpha ,Europe
+1/1/23,20003,Office Supplies,W.B. Mason,USD,101000,,,,Business Unit Alpha ,North America
+1/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,EUR,32600,,,,Business Unit Delta ,Europe
+1/1/23,20010,Trade Shows,Comexposium Group,AUD,0,,,,Business Unit Echo,APAC
+1/1/23,20008,Travel Meals,Travelocity Business,AUD,37500,,,,Business Unit Delta ,APAC
+1/1/23,20009,Computer Equipment ,Dell Technologies,EUR,22200,,,,Business Unit Alpha ,Europe
+1/1/23,20006,Tax Preparation,H&R Block,USD,0,,,,Business Unit Delta ,Latin America
+1/1/23,20008,Travel Meals,CWT,AUD,48000,,,,Business Unit Bravo,APAC
+1/1/23,20003,Office Supplies,Quill,USD,57000,,,,Business Unit Delta ,Latin America
+2/1/23,20001,Software,Salesforce,USD,240000,,,,Business Unit Delta ,Latin America
+2/1/23,20001,Software,Microsoft,USD,549000,,,,Business Unit Echo,Latin America
+2/1/23,20007,Management Consulting ,Bain & Company,USD,29800,,,,Business Unit Echo,North America
+2/1/23,20001,Software,Google,USD,459000,,,,Business Unit Alpha ,Latin America
+2/1/23,20004,Cloud Spend,Google Cloud Platform (GCP),EUR,33600,,,,Business Unit Alpha ,Europe
+2/1/23,20005,Marketing and Advertising,Amazon Advertising,EUR,27400,,,,Business Unit Bravo,Europe
+2/1/23,20008,Travel Meals,CWT,AUD,53400,,,,Business Unit Echo,APAC
+2/1/23,20007,Management Consulting ,Accenture,AUD,30400,,,,Business Unit Charlie,APAC
+2/1/23,20008,Travel Meals,Travelocity Business,USD,30000,,,,Business Unit Delta ,North America
+2/1/23,20009,Computer Equipment ,Dell Technologies,EUR,0,,,,Business Unit Echo,Europe
+2/1/23,20007,Management Consulting ,Bain & Company,AUD,0,,,,Business Unit Charlie,APAC
+2/1/23,20009,Computer Equipment ,Lenovo,EUR,0,,,,Business Unit Bravo,Europe
+2/1/23,20006,Tax Preparation,Price Waterhouse Cooper,EUR,16600,,,,Business Unit Delta ,Europe
+2/1/23,20011,Insurance,UnitedHealth Group,USD,38000,,,,Business Unit Alpha ,Latin America
+2/1/23,20001,Software,Salesforce,EUR,585000,,,,Business Unit Echo,Europe
+2/1/23,20010,Trade Shows,Comexposium Group,EUR,41400,,,,Business Unit Alpha ,Europe
+2/1/23,20002,Office Furniture,Steelcase,USD,0,,,,Business Unit Delta ,North America
+2/1/23,20010,Trade Shows,Comexposium Group,AUD,57900,,,,Business Unit Echo,APAC
+2/1/23,20011,Insurance,Humana,USD,0,,,,Business Unit Alpha ,Latin America
+2/1/23,20008,Travel Meals,CWT,EUR,22500,,,,Business Unit Delta ,Europe
+2/1/23,20005,Marketing and Advertising,Amazon Advertising,USD,21600,,,,Business Unit Alpha ,Latin America
+2/1/23,20002,Office Furniture,Steelcase,EUR,191000,,,,Business Unit Bravo,Europe
+2/1/23,20002,Office Furniture,Haworth,EUR,145000,,,,Business Unit Charlie,Europe
+2/1/23,20007,Management Consulting ,Accenture,EUR,35000,,,,Business Unit Delta ,Europe
+2/1/23,20011,Insurance,Aetna,AUD,17400,,,,Business Unit Bravo,APAC
+2/1/23,20001,Software,Microsoft,USD,153000,,,,Business Unit Alpha ,North America
+2/1/23,20005,Marketing and Advertising,Google Ads,AUD,19000,,,,Business Unit Echo,APAC
+2/1/23,20010,Trade Shows,Deutsche Messe AG,AUD,42900,,,,Business Unit Delta ,APAC
+2/1/23,20003,Office Supplies,Amazon Business,USD,164000,,,,Business Unit Bravo,Latin America
+3/1/23,20010,Trade Shows,Comexposium Group,USD,54900,,,,Business Unit Echo,Latin America
+3/1/23,20006,Tax Preparation,Ernst & Young,USD,0,,,,Business Unit Bravo,North America
+3/1/23,20001,Software,Oracle,USD,477000,,,,Business Unit Echo,Latin America
+3/1/23,20010,Trade Shows,Diversified Business Communications,USD,0,,,,Business Unit Bravo,North America
+3/1/23,20010,Trade Shows,Deutsche Messe AG,USD,17400,,,,Business Unit Charlie,North America
+3/1/23,20003,Office Supplies,Quill,AUD,94000,,,,Business Unit Alpha ,APAC
+3/1/23,20006,Tax Preparation,H&R Block,EUR,18100,,,,Business Unit Bravo,Europe
+3/1/23,20004,Cloud Spend,Salesforce,USD,36800,,,,Business Unit Echo,Latin America
+3/1/23,20008,Travel Meals,Travelocity Business,USD,0,,,,Business Unit Charlie,Latin America
+3/1/23,20011,Insurance,Cigna,AUD,12800,,,,Business Unit Bravo,APAC
+3/1/23,20002,Office Furniture,Haworth,USD,0,,,,Business Unit Charlie,North America
+3/1/23,20001,Software,SAP,AUD,549000,,,,Business Unit Bravo,APAC
+3/1/23,20008,Travel Meals,American Express Global Business Travel,EUR,27900,,,,Business Unit Charlie,Europe
+3/1/23,20011,Insurance,Humana,USD,0,,,,Business Unit Charlie,North America
+3/1/23,20006,Tax Preparation,Ernst & Young,AUD,7500,,,,Business Unit Bravo,APAC
+3/1/23,20010,Trade Shows,Deutsche Messe AG,USD,27900,,,,Business Unit Delta ,Latin America
+3/1/23,20001,Software,Oracle,USD,507000,,,,Business Unit Charlie,Latin America
+3/1/23,20002,Office Furniture,Herman Miller,USD,146000,,,,Business Unit Echo,Latin America
+3/1/23,20001,Software,SAP,AUD,483000,,,,Business Unit Bravo,APAC
+3/1/23,20011,Insurance,UnitedHealth Group,USD,34800,,,,Business Unit Bravo,Latin America
+3/1/23,20001,Software,Salesforce,USD,162000,,,,Business Unit Delta ,North America
+3/1/23,20009,Computer Equipment ,Samsung,AUD,38600,,,,Business Unit Echo,APAC
+3/1/23,20009,Computer Equipment ,Lenovo,USD,12200,,,,Business Unit Echo,Latin America
+3/1/23,20002,Office Furniture,Kimball International,AUD,152000,,,,Business Unit Bravo,APAC
+3/1/23,20010,Trade Shows,Comexposium Group,USD,37200,,,,Business Unit Bravo,Latin America
+3/1/23,20010,Trade Shows,Deutsche Messe AG,EUR,20100,,,,Business Unit Alpha ,Europe
+3/1/23,20007,Management Consulting ,McKinsey & Company,EUR,0,,,,Business Unit Echo,Europe
+3/1/23,20006,Tax Preparation,Jackson Hewitt,AUD,11000,,,,Business Unit Charlie,APAC
+3/1/23,20004,Cloud Spend,Salesforce,USD,0,,,,Business Unit Echo,North America
+4/1/23,20009,Computer Equipment ,Apple,EUR,17200,,,,Business Unit Bravo,Europe
+4/1/23,20002,Office Furniture,HON Company,AUD,0,,,,Business Unit Delta ,APAC
+4/1/23,20010,Trade Shows,Comexposium Group,AUD,16500,,,,Business Unit Charlie,APAC
+4/1/23,20007,Management Consulting ,Deloitte Consulting,USD,28200,,,,Business Unit Echo,North America
+4/1/23,20010,Trade Shows,Deutsche Messe AG,EUR,40200,,,,Business Unit Charlie,Europe
+4/1/23,20001,Software,Microsoft,AUD,0,,,,Business Unit Echo,APAC
+4/1/23,20011,Insurance,UnitedHealth Group,USD,27200,,,,Business Unit Alpha ,Latin America
+4/1/23,20002,Office Furniture,Haworth,EUR,121000,,,,Business Unit Delta ,Europe
+4/1/23,20007,Management Consulting ,Bain & Company,EUR,35000,,,,Business Unit Bravo,Europe
+4/1/23,20007,Management Consulting ,Accenture,EUR,15600,,,,Business Unit Alpha ,Europe
+4/1/23,20006,Tax Preparation,Jackson Hewitt,USD,10800,,,,Business Unit Echo,North America
+4/1/23,20001,Software,SAP,USD,288000,,,,Business Unit Echo,North America
+4/1/23,20006,Tax Preparation,TaxAct,EUR,9400,,,,Business Unit Charlie,Europe
+4/1/23,20004,Cloud Spend,Salesforce,USD,43600,,,,Business Unit Charlie,Latin America
+4/1/23,20005,Marketing and Advertising,The Trade Desk,USD,38600,,,,Business Unit Bravo,Latin America
+4/1/23,20011,Insurance,Humana,USD,17200,,,,Business Unit Delta ,North America
+4/1/23,20010,Trade Shows,Diversified Business Communications,EUR,40200,,,,Business Unit Alpha ,Europe
+4/1/23,20004,Cloud Spend,Amazon Web Services (AWS),AUD,66800,,,,Business Unit Delta ,APAC
+4/1/23,20007,Management Consulting ,McKinsey & Company,EUR,23200,,,,Business Unit Bravo,Europe
+4/1/23,20008,Travel Meals,BCD Travel,USD,25500,,,,Business Unit Alpha ,North America
+4/1/23,20007,Management Consulting ,Accenture,AUD,27400,,,,Business Unit Delta ,APAC
+4/1/23,20010,Trade Shows,Informa PLC,USD,0,,,,Business Unit Bravo,North America
+4/1/23,20006,Tax Preparation,TaxAct,USD,19000,,,,Business Unit Echo,Latin America
+4/1/23,20010,Trade Shows,Deutsche Messe AG,USD,21300,,,,Business Unit Echo,Latin America
+4/1/23,20008,Travel Meals,American Express Global Business Travel,USD,38700,,,,Business Unit Bravo,Latin America
+4/1/23,20011,Insurance,UnitedHealth Group,USD,0,,,,Business Unit Echo,Latin America
+4/1/23,20005,Marketing and Advertising,Amazon Advertising,USD,29600,,,,Business Unit Echo,North America
+4/1/23,20002,Office Furniture,Herman Miller,EUR,64000,,,,Business Unit Charlie,Europe
+4/1/23,20004,Cloud Spend,Google Cloud Platform (GCP),USD,75200,,,,Business Unit Delta ,North America
+5/1/23,20011,Insurance,UnitedHealth Group,USD,17400,,,,Business Unit Delta ,Latin America
+5/1/23,20008,Travel Meals,BCD Travel,EUR,47400,,,,Business Unit Bravo,Europe
+5/1/23,20008,Travel Meals,CWT,USD,0,,,,Business Unit Bravo,Latin America
+5/1/23,20010,Trade Shows,Deutsche Messe AG,EUR,0,,,,Business Unit Charlie,Europe
+5/1/23,20011,Insurance,Anthem Inc.,EUR,16000,,,,Business Unit Delta ,Europe
+5/1/23,20011,Insurance,UnitedHealth Group,USD,18800,,,,Business Unit Echo,North America
+5/1/23,20011,Insurance,Cigna,EUR,34600,,,,Business Unit Delta ,Europe
+5/1/23,20001,Software,SAP,USD,288000,,,,Business Unit Delta ,Latin America
+5/1/23,20010,Trade Shows,Diversified Business Communications,USD,46500,,,,Business Unit Delta ,Latin America
+5/1/23,20002,Office Furniture,HON Company,EUR,0,,,,Business Unit Bravo,Europe
+5/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,USD,0,,,,Business Unit Alpha ,North America
+5/1/23,20003,Office Supplies,W.B. Mason,EUR,126000,,,,Business Unit Alpha ,Europe
+5/1/23,20002,Office Furniture,Steelcase,USD,0,,,,Business Unit Bravo,Latin America
+5/1/23,20005,Marketing and Advertising,Instagram Ads),AUD,22200,,,,Business Unit Delta ,APAC
+5/1/23,20005,Marketing and Advertising,Amazon Advertising,USD,18000,,,,Business Unit Bravo,North America
+5/1/23,20008,Travel Meals,BCD Travel,USD,21000,,,,Business Unit Charlie,North America
+5/1/23,20006,Tax Preparation,TaxAct,EUR,14600,,,,Business Unit Charlie,Europe
+5/1/23,20009,Computer Equipment ,Dell Technologies,AUD,22800,,,,Business Unit Delta ,APAC
+5/1/23,20006,Tax Preparation,H&R Block,EUR,11700,,,,Business Unit Echo,Europe
+5/1/23,20010,Trade Shows,Informa PLC,EUR,21900,,,,Business Unit Bravo,Europe
+5/1/23,20011,Insurance,Humana,AUD,19000,,,,Business Unit Charlie,APAC
+5/1/23,20006,Tax Preparation,H&R Block,AUD,19800,,,,Business Unit Delta ,APAC
+5/1/23,20005,Marketing and Advertising,Google Ads,USD,27200,,,,Business Unit Delta ,Latin America
+5/1/23,20002,Office Furniture,Kimball International,AUD,0,,,,Business Unit Delta ,APAC
+5/1/23,20006,Tax Preparation,Ernst & Young,USD,8000,,,,Business Unit Charlie,Latin America
+5/1/23,20010,Trade Shows,Diversified Business Communications,AUD,32700,,,,Business Unit Bravo,APAC
+5/1/23,20004,Cloud Spend,Google Cloud Platform (GCP),USD,58800,,,,Business Unit Alpha ,Latin America
+5/1/23,20006,Tax Preparation,Ernst & Young,EUR,9900,,,,Business Unit Delta ,Europe
+5/1/23,20010,Trade Shows,Informa PLC,USD,16200,,,,Business Unit Charlie,Latin America
+6/1/23,20008,Travel Meals,American Express Global Business Travel,EUR,48300,,,,Business Unit Alpha ,Europe
+6/1/23,20002,Office Furniture,Haworth,AUD,145000,,,,Business Unit Echo,APAC
+6/1/23,20011,Insurance,Humana,AUD,27200,,,,Business Unit Charlie,APAC
+6/1/23,20002,Office Furniture,Kimball International,USD,0,,,,Business Unit Delta ,Latin America
+6/1/23,20006,Tax Preparation,H&R Block,USD,19900,,,,Business Unit Delta ,North America
+6/1/23,20003,Office Supplies,W.B. Mason,USD,163000,,,,Business Unit Alpha ,Latin America
+6/1/23,20009,Computer Equipment ,Dell Technologies,USD,13600,,,,Business Unit Bravo,North America
+6/1/23,20002,Office Furniture,HON Company,AUD,116000,,,,Business Unit Echo,APAC
+6/1/23,20006,Tax Preparation,TaxAct,USD,8200,,,,Business Unit Echo,Latin America
+6/1/23,20011,Insurance,Cigna,AUD,39400,,,,Business Unit Delta ,APAC
+6/1/23,20009,Computer Equipment ,Lenovo,USD,31800,,,,Business Unit Delta ,Latin America
+6/1/23,20001,Software,Oracle,USD,471000,,,,Business Unit Bravo,Latin America
+6/1/23,20001,Software,Microsoft,AUD,330000,,,,Business Unit Bravo,APAC
+6/1/23,20001,Software,Microsoft,USD,534000,,,,Business Unit Bravo,Latin America
+6/1/23,20003,Office Supplies,W.B. Mason,AUD,130000,,,,Business Unit Delta ,APAC
+6/1/23,20003,Office Supplies,W.B. Mason,USD,50000,,,,Business Unit Charlie,North America
+6/1/23,20010,Trade Shows,Reed Exhibitions,EUR,43500,,,,Business Unit Charlie,Europe
+6/1/23,20001,Software,Microsoft,AUD,258000,,,,Business Unit Charlie,APAC
+6/1/23,20002,Office Furniture,Herman Miller,USD,76000,,,,Business Unit Bravo,Latin America
+6/1/23,20004,Cloud Spend,IBM Cloud,EUR,43600,,,,Business Unit Alpha ,Europe
+6/1/23,20001,Software,Oracle,USD,0,,,,Business Unit Charlie,Latin America
+6/1/23,20008,Travel Meals,Travelocity Business,AUD,54300,,,,Business Unit Bravo,APAC
+6/1/23,20001,Software,Oracle,AUD,216000,,,,Business Unit Echo,APAC
+6/1/23,20005,Marketing and Advertising,Google Ads,USD,10000,,,,Business Unit Delta ,North America
+6/1/23,20002,Office Furniture,HON Company,EUR,194000,,,,Business Unit Delta ,Europe
+6/1/23,20007,Management Consulting ,The Boston Consulting Group,USD,33800,,,,Business Unit Delta ,North America
+6/1/23,20005,Marketing and Advertising,The Trade Desk,AUD,0,,,,Business Unit Bravo,APAC
+6/1/23,20008,Travel Meals,Travelocity Business,EUR,0,,,,Business Unit Charlie,Europe
+6/1/23,20011,Insurance,Aetna,EUR,18200,,,,Business Unit Charlie,Europe
+7/1/23,20011,Insurance,Humana,USD,29400,,,,Business Unit Charlie,Latin America
+7/1/23,20006,Tax Preparation,H&R Block,AUD,8400,,,,Business Unit Echo,APAC
+7/1/23,20007,Management Consulting ,Bain & Company,AUD,36400,,,,Business Unit Bravo,APAC
+7/1/23,20011,Insurance,Cigna,USD,14000,,,,Business Unit Delta ,Latin America
+7/1/23,20011,Insurance,Anthem Inc.,USD,20600,,,,Business Unit Echo,North America
+7/1/23,20006,Tax Preparation,Price Waterhouse Cooper,AUD,18900,,,,Business Unit Bravo,APAC
+7/1/23,20006,Tax Preparation,H&R Block,USD,12100,,,,Business Unit Alpha ,North America
+7/1/23,20006,Tax Preparation,TaxAct,EUR,13300,,,,Business Unit Bravo,Europe
+7/1/23,20005,Marketing and Advertising,The Trade Desk,AUD,17600,,,,Business Unit Charlie,APAC
+7/1/23,20003,Office Supplies,Office Depot,EUR,176000,,,,Business Unit Charlie,Europe
+7/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,AUD,20200,,,,Business Unit Charlie,APAC
+7/1/23,20006,Tax Preparation,Jackson Hewitt,AUD,0,,,,Business Unit Charlie,APAC
+7/1/23,20005,Marketing and Advertising,Instagram Ads),USD,20000,,,,Business Unit Charlie,Latin America
+7/1/23,20011,Insurance,Aetna,USD,0,,,,Business Unit Echo,North America
+7/1/23,20001,Software,Google,USD,474000,,,,Business Unit Echo,North America
+7/1/23,20003,Office Supplies,W.B. Mason,USD,0,,,,Business Unit Delta ,Latin America
+7/1/23,20010,Trade Shows,Comexposium Group,USD,0,,,,Business Unit Charlie,North America
+7/1/23,20002,Office Furniture,Steelcase,USD,0,,,,Business Unit Charlie,Latin America
+7/1/23,20007,Management Consulting ,Deloitte Consulting,EUR,0,,,,Business Unit Charlie,Europe
+7/1/23,20007,Management Consulting ,Deloitte Consulting,AUD,34200,,,,Business Unit Alpha ,APAC
+7/1/23,20005,Marketing and Advertising,The Trade Desk,EUR,17200,,,,Business Unit Bravo,Europe
+7/1/23,20011,Insurance,UnitedHealth Group,USD,39800,,,,Business Unit Alpha ,North America
+7/1/23,20007,Management Consulting ,The Boston Consulting Group,AUD,26400,,,,Business Unit Alpha ,APAC
+7/1/23,20005,Marketing and Advertising,The Trade Desk,USD,20200,,,,Business Unit Echo,Latin America
+7/1/23,20010,Trade Shows,Reed Exhibitions,AUD,22500,,,,Business Unit Charlie,APAC
+7/1/23,20003,Office Supplies,W.B. Mason,USD,0,,,,Business Unit Charlie,Latin America
+7/1/23,20009,Computer Equipment ,Dell Technologies,USD,31200,,,,Business Unit Alpha ,North America
+7/1/23,20006,Tax Preparation,Ernst & Young,USD,13100,,,,Business Unit Echo,North America
+7/1/23,20010,Trade Shows,Informa PLC,EUR,0,,,,Business Unit Echo,Europe
+8/1/23,20003,Office Supplies,Quill,AUD,119000,,,,Business Unit Alpha ,APAC
+8/1/23,20007,Management Consulting ,Bain & Company,USD,0,,,,Business Unit Delta ,Latin America
+8/1/23,20003,Office Supplies,Office Depot,USD,64000,,,,Business Unit Delta ,Latin America
+8/1/23,20008,Travel Meals,Egencia,USD,50400,,,,Business Unit Alpha ,Latin America
+8/1/23,20007,Management Consulting ,The Boston Consulting Group,EUR,18400,,,,Business Unit Charlie,Europe
+8/1/23,20003,Office Supplies,Amazon Business,USD,0,,,,Business Unit Bravo,Latin America
+8/1/23,20001,Software,SAP,EUR,255000,,,,Business Unit Alpha ,Europe
+8/1/23,20005,Marketing and Advertising,Instagram Ads),USD,30400,,,,Business Unit Bravo,North America
+8/1/23,20011,Insurance,Humana,EUR,16400,,,,Business Unit Delta ,Europe
+8/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,EUR,31400,,,,Business Unit Alpha ,Europe
+8/1/23,20005,Marketing and Advertising,Amazon Advertising,USD,26200,,,,Business Unit Charlie,North America
+8/1/23,20004,Cloud Spend,Google Cloud Platform (GCP),USD,77600,,,,Business Unit Alpha ,Latin America
+8/1/23,20001,Software,Microsoft,AUD,546000,,,,Business Unit Delta ,APAC
+8/1/23,20009,Computer Equipment ,Samsung,EUR,20400,,,,Business Unit Echo,Europe
+8/1/23,20011,Insurance,Anthem Inc.,USD,37400,,,,Business Unit Bravo,North America
+8/1/23,20007,Management Consulting ,McKinsey & Company,USD,15400,,,,Business Unit Alpha ,North America
+8/1/23,20006,Tax Preparation,H&R Block,USD,8400,,,,Business Unit Delta ,Latin America
+8/1/23,20005,Marketing and Advertising,Instagram Ads),AUD,0,,,,Business Unit Charlie,APAC
+8/1/23,20010,Trade Shows,Diversified Business Communications,USD,0,,,,Business Unit Charlie,Latin America
+8/1/23,20004,Cloud Spend,Google Cloud Platform (GCP),EUR,70800,,,,Business Unit Echo,Europe
+8/1/23,20003,Office Supplies,Amazon Business,USD,187000,,,,Business Unit Alpha ,North America
+8/1/23,20010,Trade Shows,Diversified Business Communications,USD,42300,,,,Business Unit Bravo,Latin America
+8/1/23,20003,Office Supplies,Office Depot,AUD,81000,,,,Business Unit Bravo,APAC
+8/1/23,20007,Management Consulting ,The Boston Consulting Group,EUR,15000,,,,Business Unit Echo,Europe
+8/1/23,20001,Software,Microsoft,USD,354000,,,,Business Unit Charlie,North America
+8/1/23,20010,Trade Shows,Deutsche Messe AG,USD,0,,,,Business Unit Delta ,North America
+8/1/23,20007,Management Consulting ,The Boston Consulting Group,AUD,29200,,,,Business Unit Alpha ,APAC
+8/1/23,20004,Cloud Spend,Google Cloud Platform (GCP),USD,65600,,,,Business Unit Bravo,Latin America
+8/1/23,20008,Travel Meals,CWT,USD,51600,,,,Business Unit Alpha ,Latin America
+9/1/23,20009,Computer Equipment ,Samsung,EUR,14600,,,,Business Unit Charlie,Europe
+9/1/23,20003,Office Supplies,Amazon Business,AUD,0,,,,Business Unit Charlie,APAC
+9/1/23,20005,Marketing and Advertising,Google Ads,USD,29000,,,,Business Unit Charlie,North America
+9/1/23,20002,Office Furniture,Herman Miller,USD,0,,,,Business Unit Bravo,North America
+9/1/23,20002,Office Furniture,Steelcase,AUD,168000,,,,Business Unit Echo,APAC
+9/1/23,20007,Management Consulting ,Deloitte Consulting,AUD,14800,,,,Business Unit Alpha ,APAC
+9/1/23,20005,Marketing and Advertising,Google Ads,EUR,28000,,,,Business Unit Bravo,Europe
+9/1/23,20007,Management Consulting ,Bain & Company,USD,36400,,,,Business Unit Echo,Latin America
+9/1/23,20003,Office Supplies,W.B. Mason,AUD,66000,,,,Business Unit Delta ,APAC
+9/1/23,20006,Tax Preparation,Jackson Hewitt,USD,14200,,,,Business Unit Delta ,North America
+9/1/23,20007,Management Consulting ,Deloitte Consulting,EUR,39400,,,,Business Unit Echo,Europe
+9/1/23,20006,Tax Preparation,TaxAct,EUR,18200,,,,Business Unit Charlie,Europe
+9/1/23,20010,Trade Shows,Informa PLC,USD,26700,,,,Business Unit Charlie,Latin America
+9/1/23,20003,Office Supplies,Amazon Business,USD,0,,,,Business Unit Echo,Latin America
+9/1/23,20009,Computer Equipment ,Samsung,USD,16000,,,,Business Unit Bravo,North America
+9/1/23,20011,Insurance,Cigna,USD,25600,,,,Business Unit Charlie,Latin America
+9/1/23,20003,Office Supplies,W.B. Mason,EUR,0,,,,Business Unit Echo,Europe
+9/1/23,20011,Insurance,Cigna,EUR,31000,,,,Business Unit Alpha ,Europe
+9/1/23,20009,Computer Equipment ,Samsung,AUD,26600,,,,Business Unit Bravo,APAC
+9/1/23,20004,Cloud Spend,Microsoft Azure,EUR,0,,,,Business Unit Delta ,Europe
+9/1/23,20003,Office Supplies,Staples,USD,162000,,,,Business Unit Delta ,North America
+9/1/23,20009,Computer Equipment ,Apple,USD,0,,,,Business Unit Delta ,North America
+9/1/23,20001,Software,Oracle,USD,408000,,,,Business Unit Bravo,North America
+9/1/23,20003,Office Supplies,Amazon Business,USD,0,,,,Business Unit Delta ,Latin America
+9/1/23,20008,Travel Meals,Travelocity Business,USD,0,,,,Business Unit Alpha ,Latin America
+9/1/23,20001,Software,Microsoft,USD,222000,,,,Business Unit Bravo,Latin America
+9/1/23,20004,Cloud Spend,IBM Cloud,EUR,61200,,,,Business Unit Bravo,Europe
+9/1/23,20005,Marketing and Advertising,Instagram Ads),USD,13200,,,,Business Unit Charlie,North America
+9/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,USD,32000,,,,Business Unit Charlie,North America
+10/1/23,20004,Cloud Spend,Microsoft Azure,USD,62800,,,,Business Unit Delta ,Latin America
+10/1/23,20001,Software,Salesforce,AUD,0,,,,Business Unit Alpha ,APAC
+10/1/23,20002,Office Furniture,Steelcase,AUD,138000,,,,Business Unit Alpha ,APAC
+10/1/23,20008,Travel Meals,CWT,USD,28200,,,,Business Unit Echo,North America
+10/1/23,20008,Travel Meals,Travelocity Business,USD,51900,,,,Business Unit Echo,North America
+10/1/23,20009,Computer Equipment ,Lenovo,USD,29200,,,,Business Unit Bravo,North America
+10/1/23,20008,Travel Meals,American Express Global Business Travel,USD,37200,,,,Business Unit Bravo,Latin America
+10/1/23,20007,Management Consulting ,Accenture,USD,13800,,,,Business Unit Echo,North America
+10/1/23,20004,Cloud Spend,IBM Cloud,AUD,0,,,,Business Unit Echo,APAC
+10/1/23,20005,Marketing and Advertising,Amazon Advertising,EUR,39400,,,,Business Unit Delta ,Europe
+10/1/23,20003,Office Supplies,Amazon Business,USD,92000,,,,Business Unit Charlie,Latin America
+10/1/23,20010,Trade Shows,Diversified Business Communications,AUD,17100,,,,Business Unit Delta ,APAC
+10/1/23,20010,Trade Shows,Informa PLC,USD,29400,,,,Business Unit Echo,North America
+10/1/23,20007,Management Consulting ,The Boston Consulting Group,EUR,22000,,,,Business Unit Echo,Europe
+10/1/23,20011,Insurance,Aetna,USD,0,,,,Business Unit Echo,North America
+10/1/23,20004,Cloud Spend,IBM Cloud,EUR,74000,,,,Business Unit Charlie,Europe
+10/1/23,20004,Cloud Spend,Salesforce,AUD,53600,,,,Business Unit Alpha ,APAC
+10/1/23,20009,Computer Equipment ,HP Inc.,USD,0,,,,Business Unit Echo,North America
+10/1/23,20010,Trade Shows,Reed Exhibitions,EUR,29100,,,,Business Unit Bravo,Europe
+10/1/23,20010,Trade Shows,Comexposium Group,EUR,0,,,,Business Unit Bravo,Europe
+10/1/23,20010,Trade Shows,Diversified Business Communications,USD,59100,,,,Business Unit Bravo,North America
+10/1/23,20008,Travel Meals,BCD Travel,USD,19200,,,,Business Unit Bravo,Latin America
+10/1/23,20004,Cloud Spend,Salesforce,USD,50400,,,,Business Unit Alpha ,Latin America
+10/1/23,20008,Travel Meals,Travelocity Business,USD,47700,,,,Business Unit Echo,Latin America
+10/1/23,20011,Insurance,Cigna,AUD,21600,,,,Business Unit Echo,APAC
+10/1/23,20010,Trade Shows,Diversified Business Communications,AUD,24600,,,,Business Unit Echo,APAC
+10/1/23,20007,Management Consulting ,McKinsey & Company,USD,37800,,,,Business Unit Delta ,Latin America
+10/1/23,20011,Insurance,Aetna,AUD,20400,,,,Business Unit Echo,APAC
+10/1/23,20011,Insurance,Anthem Inc.,AUD,33800,,,,Business Unit Bravo,APAC
+11/1/23,20008,Travel Meals,BCD Travel,USD,43800,,,,Business Unit Charlie,North America
+11/1/23,20008,Travel Meals,Travelocity Business,AUD,56100,,,,Business Unit Charlie,APAC
+11/1/23,20006,Tax Preparation,Price Waterhouse Cooper,USD,19800,,,,Business Unit Bravo,North America
+11/1/23,20003,Office Supplies,Amazon Business,USD,97000,,,,Business Unit Echo,North America
+11/1/23,20003,Office Supplies,Amazon Business,USD,66000,,,,Business Unit Alpha ,North America
+11/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,EUR,10600,,,,Business Unit Delta ,Europe
+11/1/23,20011,Insurance,Anthem Inc.,USD,30600,,,,Business Unit Charlie,North America
+11/1/23,20006,Tax Preparation,Ernst & Young,EUR,16000,,,,Business Unit Delta ,Europe
+11/1/23,20007,Management Consulting ,The Boston Consulting Group,AUD,0,,,,Business Unit Charlie,APAC
+11/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,USD,37600,,,,Business Unit Alpha ,Latin America
+11/1/23,20009,Computer Equipment ,Dell Technologies,USD,35000,,,,Business Unit Alpha ,North America
+11/1/23,20010,Trade Shows,Reed Exhibitions,USD,33900,,,,Business Unit Charlie,North America
+11/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,EUR,27200,,,,Business Unit Charlie,Europe
+11/1/23,20001,Software,SAP,USD,552000,,,,Business Unit Echo,Latin America
+11/1/23,20011,Insurance,Anthem Inc.,EUR,30800,,,,Business Unit Echo,Europe
+11/1/23,20004,Cloud Spend,Amazon Web Services (AWS),AUD,75600,,,,Business Unit Alpha ,APAC
+11/1/23,20006,Tax Preparation,Jackson Hewitt,EUR,0,,,,Business Unit Echo,Europe
+11/1/23,20007,Management Consulting ,McKinsey & Company,USD,39200,,,,Business Unit Alpha ,North America
+11/1/23,20006,Tax Preparation,Jackson Hewitt,EUR,15200,,,,Business Unit Charlie,Europe
+11/1/23,20008,Travel Meals,CWT,USD,49800,,,,Business Unit Delta ,North America
+11/1/23,20002,Office Furniture,HON Company,USD,0,,,,Business Unit Bravo,North America
+11/1/23,20007,Management Consulting ,McKinsey & Company,USD,0,,,,Business Unit Echo,Latin America
+11/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,AUD,0,,,,Business Unit Alpha ,APAC
+11/1/23,20007,Management Consulting ,Deloitte Consulting,USD,18200,,,,Business Unit Delta ,Latin America
+11/1/23,20007,Management Consulting ,Accenture,EUR,24400,,,,Business Unit Bravo,Europe
+11/1/23,20008,Travel Meals,CWT,USD,36900,,,,Business Unit Charlie,North America
+11/1/23,20010,Trade Shows,Reed Exhibitions,USD,18900,,,,Business Unit Charlie,North America
+11/1/23,20002,Office Furniture,Haworth,USD,94000,,,,Business Unit Alpha ,North America
+11/1/23,20010,Trade Shows,Comexposium Group,USD,0,,,,Business Unit Bravo,Latin America
+12/1/23,20005,Marketing and Advertising,Amazon Advertising,USD,0,,,,Business Unit Alpha ,North America
+12/1/23,20004,Cloud Spend,Google Cloud Platform (GCP),USD,60800,,,,Business Unit Echo,North America
+12/1/23,20011,Insurance,Anthem Inc.,USD,29800,,,,Business Unit Charlie,North America
+12/1/23,20008,Travel Meals,Travelocity Business,AUD,15300,,,,Business Unit Alpha ,APAC
+12/1/23,20006,Tax Preparation,Price Waterhouse Cooper,USD,15000,,,,Business Unit Charlie,Latin America
+12/1/23,20010,Trade Shows,Diversified Business Communications,USD,46800,,,,Business Unit Alpha ,Latin America
+12/1/23,20002,Office Furniture,Herman Miller,AUD,174000,,,,Business Unit Bravo,APAC
+12/1/23,20001,Software,Salesforce,USD,225000,,,,Business Unit Charlie,North America
+12/1/23,20001,Software,SAP,EUR,279000,,,,Business Unit Bravo,Europe
+12/1/23,20002,Office Furniture,Steelcase,USD,100000,,,,Business Unit Delta ,North America
+12/1/23,20003,Office Supplies,Office Depot,EUR,0,,,,Business Unit Delta ,Europe
+12/1/23,20010,Trade Shows,Informa PLC,AUD,16500,,,,Business Unit Delta ,APAC
+12/1/23,20010,Trade Shows,Comexposium Group,AUD,0,,,,Business Unit Echo,APAC
+12/1/23,20007,Management Consulting ,The Boston Consulting Group,USD,14600,,,,Business Unit Alpha ,North America
+12/1/23,20006,Tax Preparation,Price Waterhouse Cooper,EUR,10500,,,,Business Unit Delta ,Europe
+12/1/23,20004,Cloud Spend,IBM Cloud,USD,64400,,,,Business Unit Echo,Latin America
+12/1/23,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,AUD,20400,,,,Business Unit Alpha ,APAC
+12/1/23,20010,Trade Shows,Deutsche Messe AG,USD,0,,,,Business Unit Delta ,North America
+12/1/23,20010,Trade Shows,Reed Exhibitions,USD,24600,,,,Business Unit Bravo,North America
+12/1/23,20002,Office Furniture,Kimball International,USD,189000,,,,Business Unit Echo,North America
+12/1/23,20006,Tax Preparation,Price Waterhouse Cooper,EUR,18200,,,,Business Unit Echo,Europe
+12/1/23,20010,Trade Shows,Informa PLC,USD,41100,,,,Business Unit Delta ,Latin America
+12/1/23,20010,Trade Shows,Diversified Business Communications,EUR,47700,,,,Business Unit Charlie,Europe
+12/1/23,20008,Travel Meals,American Express Global Business Travel,AUD,0,,,,Business Unit Delta ,APAC
+12/1/23,20007,Management Consulting ,Bain & Company,AUD,37600,,,,Business Unit Charlie,APAC
+12/1/23,20011,Insurance,Aetna,USD,30000,,,,Business Unit Bravo,Latin America
+12/1/23,20002,Office Furniture,Haworth,EUR,88000,,,,Business Unit Charlie,Europe
+12/1/23,20008,Travel Meals,BCD Travel,USD,59400,,,,Business Unit Alpha ,Latin America
+12/1/23,20008,Travel Meals,Travelocity Business,USD,36900,,,,Business Unit Charlie,North America
+12/1/23,20008,Travel Meals,American Express Global Business Travel,USD,44100,,,,Business Unit Echo,North America
+1/1/22,20008,Travel Meals,BCD Travel,USD,35100,,,,Business Unit Alpha ,Latin America
+1/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,13200,,,,Business Unit Charlie,Latin America
+1/1/22,20001,Software,Oracle,EUR,444000,,,,Business Unit Bravo,Europe
+1/1/22,20011,Insurance,Humana,EUR,31000,,,,Business Unit Bravo,Europe
+1/1/22,20005,Marketing and Advertising,Instagram Ads),EUR,0,,,,Business Unit Echo,Europe
+1/1/22,20010,Trade Shows,Deutsche Messe AG,EUR,51300,,,,Business Unit Charlie,Europe
+1/1/22,20011,Insurance,Aetna,AUD,29400,,,,Business Unit Delta ,APAC
+1/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),EUR,63200,,,,Business Unit Alpha ,Europe
+1/1/22,20002,Office Furniture,Haworth,AUD,159000,,,,Business Unit Charlie,APAC
+1/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,8800,,,,Business Unit Bravo,North America
+1/1/22,20010,Trade Shows,Comexposium Group,EUR,16500,,,,Business Unit Charlie,Europe
+1/1/22,20007,Management Consulting ,Accenture,USD,36000,,,,Business Unit Delta ,Latin America
+1/1/22,20009,Computer Equipment ,Lenovo,USD,24000,,,,Business Unit Bravo,North America
+1/1/22,20001,Software,Oracle,EUR,0,,,,Business Unit Charlie,Europe
+1/1/22,20002,Office Furniture,Haworth,EUR,56000,,,,Business Unit Charlie,Europe
+1/1/22,20008,Travel Meals,CWT,USD,20400,,,,Business Unit Echo,Latin America
+1/1/22,20006,Tax Preparation,Jackson Hewitt,USD,0,,,,Business Unit Bravo,Latin America
+1/1/22,20008,Travel Meals,Travelocity Business,EUR,29400,,,,Business Unit Echo,Europe
+1/1/22,20002,Office Furniture,Steelcase,USD,121000,,,,Business Unit Alpha ,Latin America
+1/1/22,20007,Management Consulting ,McKinsey & Company,USD,25600,,,,Business Unit Delta ,Latin America
+1/1/22,20004,Cloud Spend,Amazon Web Services (AWS),USD,22000,,,,Business Unit Alpha ,Latin America
+1/1/22,20003,Office Supplies,Quill,EUR,127000,,,,Business Unit Echo,Europe
+1/1/22,20009,Computer Equipment ,Lenovo,EUR,19400,,,,Business Unit Alpha ,Europe
+1/1/22,20003,Office Supplies,Staples,EUR,0,,,,Business Unit Charlie,Europe
+1/1/22,20005,Marketing and Advertising,Amazon Advertising,AUD,29000,,,,Business Unit Alpha ,APAC
+1/1/22,20003,Office Supplies,Staples,AUD,88000,,,,Business Unit Delta ,APAC
+1/1/22,20010,Trade Shows,Informa PLC,USD,17100,,,,Business Unit Delta ,North America
+1/1/22,20009,Computer Equipment ,Samsung,USD,35400,,,,Business Unit Charlie,Latin America
+1/1/22,20010,Trade Shows,Reed Exhibitions,AUD,27000,,,,Business Unit Bravo,APAC
+2/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,0,,,,Business Unit Charlie,North America
+2/1/22,20008,Travel Meals,CWT,AUD,48900,,,,Business Unit Charlie,APAC
+2/1/22,20003,Office Supplies,Amazon Business,USD,67000,,,,Business Unit Echo,Latin America
+2/1/22,20010,Trade Shows,Comexposium Group,EUR,0,,,,Business Unit Alpha ,Europe
+2/1/22,20004,Cloud Spend,IBM Cloud,AUD,25600,,,,Business Unit Charlie,APAC
+2/1/22,20002,Office Furniture,Herman Miller,EUR,73000,,,,Business Unit Alpha ,Europe
+2/1/22,20002,Office Furniture,Herman Miller,USD,145000,,,,Business Unit Delta ,Latin America
+2/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,20600,,,,Business Unit Echo,Latin America
+2/1/22,20008,Travel Meals,American Express Global Business Travel,EUR,0,,,,Business Unit Charlie,Europe
+2/1/22,20003,Office Supplies,W.B. Mason,EUR,176000,,,,Business Unit Echo,Europe
+2/1/22,20005,Marketing and Advertising,Google Ads,USD,22000,,,,Business Unit Charlie,Latin America
+2/1/22,20009,Computer Equipment ,Samsung,USD,30400,,,,Business Unit Alpha ,Latin America
+2/1/22,20003,Office Supplies,Amazon Business,EUR,134000,,,,Business Unit Bravo,Europe
+2/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,14600,,,,Business Unit Charlie,North America
+2/1/22,20002,Office Furniture,Herman Miller,USD,63000,,,,Business Unit Echo,Latin America
+2/1/22,20007,Management Consulting ,Accenture,USD,18600,,,,Business Unit Alpha ,Latin America
+2/1/22,20009,Computer Equipment ,Apple,USD,0,,,,Business Unit Charlie,Latin America
+2/1/22,20010,Trade Shows,Deutsche Messe AG,EUR,0,,,,Business Unit Bravo,Europe
+2/1/22,20006,Tax Preparation,Jackson Hewitt,EUR,5200,,,,Business Unit Delta ,Europe
+2/1/22,20011,Insurance,Aetna,USD,15000,,,,Business Unit Bravo,Latin America
+2/1/22,20008,Travel Meals,BCD Travel,AUD,58800,,,,Business Unit Alpha ,APAC
+2/1/22,20008,Travel Meals,American Express Global Business Travel,USD,46800,,,,Business Unit Bravo,Latin America
+2/1/22,20011,Insurance,Humana,AUD,0,,,,Business Unit Delta ,APAC
+2/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,13700,,,,Business Unit Bravo,Latin America
+2/1/22,20010,Trade Shows,Informa PLC,EUR,48000,,,,Business Unit Bravo,Europe
+2/1/22,20006,Tax Preparation,Ernst & Young,EUR,18000,,,,Business Unit Alpha ,Europe
+2/1/22,20004,Cloud Spend,IBM Cloud,USD,0,,,,Business Unit Echo,North America
+2/1/22,20008,Travel Meals,Egencia,USD,53700,,,,Business Unit Charlie,North America
+2/1/22,20009,Computer Equipment ,Lenovo,AUD,23800,,,,Business Unit Charlie,APAC
+3/1/22,20007,Management Consulting ,Accenture,USD,38400,,,,Business Unit Delta ,Latin America
+3/1/22,20006,Tax Preparation,TaxAct,USD,14900,,,,Business Unit Echo,Latin America
+3/1/22,20009,Computer Equipment ,Lenovo,EUR,15400,,,,Business Unit Bravo,Europe
+3/1/22,20005,Marketing and Advertising,The Trade Desk,USD,12000,,,,Business Unit Delta ,North America
+3/1/22,20001,Software,Salesforce,EUR,171000,,,,Business Unit Bravo,Europe
+3/1/22,20002,Office Furniture,Herman Miller,EUR,0,,,,Business Unit Alpha ,Europe
+3/1/22,20005,Marketing and Advertising,Instagram Ads),AUD,16600,,,,Business Unit Delta ,APAC
+3/1/22,20007,Management Consulting ,Deloitte Consulting,EUR,35000,,,,Business Unit Delta ,Europe
+3/1/22,20006,Tax Preparation,TaxAct,EUR,17900,,,,Business Unit Delta ,Europe
+3/1/22,20010,Trade Shows,Diversified Business Communications,EUR,45900,,,,Business Unit Charlie,Europe
+3/1/22,20009,Computer Equipment ,Apple,EUR,0,,,,Business Unit Delta ,Europe
+3/1/22,20004,Cloud Spend,IBM Cloud,EUR,64400,,,,Business Unit Bravo,Europe
+3/1/22,20008,Travel Meals,Egencia,USD,32100,,,,Business Unit Bravo,Latin America
+3/1/22,20008,Travel Meals,American Express Global Business Travel,USD,0,,,,Business Unit Charlie,Latin America
+3/1/22,20005,Marketing and Advertising,Instagram Ads),USD,22200,,,,Business Unit Charlie,North America
+3/1/22,20005,Marketing and Advertising,Instagram Ads),EUR,0,,,,Business Unit Delta ,Europe
+3/1/22,20004,Cloud Spend,Salesforce,USD,56000,,,,Business Unit Charlie,North America
+3/1/22,20003,Office Supplies,Office Depot,EUR,102000,,,,Business Unit Alpha ,Europe
+3/1/22,20006,Tax Preparation,Jackson Hewitt,AUD,6300,,,,Business Unit Alpha ,APAC
+3/1/22,20001,Software,Oracle,USD,210000,,,,Business Unit Echo,North America
+3/1/22,20009,Computer Equipment ,HP Inc.,EUR,23600,,,,Business Unit Echo,Europe
+3/1/22,20011,Insurance,Cigna,USD,15400,,,,Business Unit Echo,North America
+3/1/22,20001,Software,Google,EUR,525000,,,,Business Unit Charlie,Europe
+3/1/22,20005,Marketing and Advertising,The Trade Desk,EUR,0,,,,Business Unit Echo,Europe
+3/1/22,20010,Trade Shows,Comexposium Group,EUR,43500,,,,Business Unit Charlie,Europe
+3/1/22,20008,Travel Meals,BCD Travel,AUD,25800,,,,Business Unit Alpha ,APAC
+3/1/22,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,USD,14600,,,,Business Unit Alpha ,North America
+3/1/22,20005,Marketing and Advertising,Instagram Ads),USD,40000,,,,Business Unit Delta ,North America
+3/1/22,20009,Computer Equipment ,Lenovo,USD,0,,,,Business Unit Charlie,Latin America
+4/1/22,20002,Office Furniture,Kimball International,AUD,132000,,,,Business Unit Echo,APAC
+4/1/22,20003,Office Supplies,Quill,AUD,119000,,,,Business Unit Echo,APAC
+4/1/22,20002,Office Furniture,Steelcase,AUD,173000,,,,Business Unit Delta ,APAC
+4/1/22,20007,Management Consulting ,McKinsey & Company,AUD,0,,,,Business Unit Bravo,APAC
+4/1/22,20008,Travel Meals,Egencia,USD,45300,,,,Business Unit Charlie,North America
+4/1/22,20001,Software,Google,USD,435000,,,,Business Unit Echo,North America
+4/1/22,20006,Tax Preparation,Jackson Hewitt,EUR,0,,,,Business Unit Charlie,Europe
+4/1/22,20002,Office Furniture,Steelcase,USD,0,,,,Business Unit Bravo,Latin America
+4/1/22,20010,Trade Shows,Diversified Business Communications,EUR,0,,,,Business Unit Charlie,Europe
+4/1/22,20005,Marketing and Advertising,Google Ads,USD,17800,,,,Business Unit Alpha ,Latin America
+4/1/22,20010,Trade Shows,Reed Exhibitions,AUD,25500,,,,Business Unit Delta ,APAC
+4/1/22,20004,Cloud Spend,Salesforce,AUD,60400,,,,Business Unit Echo,APAC
+4/1/22,20009,Computer Equipment ,Samsung,USD,22000,,,,Business Unit Bravo,Latin America
+4/1/22,20008,Travel Meals,Travelocity Business,USD,43500,,,,Business Unit Delta ,Latin America
+4/1/22,20001,Software,SAP,USD,0,,,,Business Unit Bravo,Latin America
+4/1/22,20003,Office Supplies,Staples,AUD,65000,,,,Business Unit Echo,APAC
+4/1/22,20008,Travel Meals,Egencia,AUD,0,,,,Business Unit Alpha ,APAC
+4/1/22,20009,Computer Equipment ,Apple,USD,31600,,,,Business Unit Alpha ,North America
+4/1/22,20002,Office Furniture,HON Company,USD,91000,,,,Business Unit Echo,North America
+4/1/22,20002,Office Furniture,Kimball International,AUD,57000,,,,Business Unit Echo,APAC
+4/1/22,20006,Tax Preparation,Jackson Hewitt,AUD,15300,,,,Business Unit Echo,APAC
+4/1/22,20007,Management Consulting ,Bain & Company,AUD,37800,,,,Business Unit Alpha ,APAC
+4/1/22,20001,Software,SAP,USD,375000,,,,Business Unit Charlie,Latin America
+4/1/22,20002,Office Furniture,Haworth,AUD,68000,,,,Business Unit Alpha ,APAC
+4/1/22,20005,Marketing and Advertising,Google Ads,USD,33600,,,,Business Unit Echo,North America
+4/1/22,20006,Tax Preparation,TaxAct,AUD,5400,,,,Business Unit Delta ,APAC
+4/1/22,20007,Management Consulting ,Deloitte Consulting,USD,12800,,,,Business Unit Delta ,Latin America
+4/1/22,20001,Software,Google,AUD,0,,,,Business Unit Bravo,APAC
+4/1/22,20003,Office Supplies,Quill,USD,70000,,,,Business Unit Charlie,North America
+5/1/22,20011,Insurance,Humana,EUR,15800,,,,Business Unit Delta ,Europe
+5/1/22,20002,Office Furniture,Herman Miller,EUR,128000,,,,Business Unit Echo,Europe
+5/1/22,20005,Marketing and Advertising,The Trade Desk,EUR,22600,,,,Business Unit Alpha ,Europe
+5/1/22,20009,Computer Equipment ,Dell Technologies,AUD,0,,,,Business Unit Charlie,APAC
+5/1/22,20009,Computer Equipment ,Apple,AUD,21000,,,,Business Unit Delta ,APAC
+5/1/22,20008,Travel Meals,CWT,USD,0,,,,Business Unit Bravo,Latin America
+5/1/22,20009,Computer Equipment ,Apple,USD,36600,,,,Business Unit Bravo,Latin America
+5/1/22,20002,Office Furniture,HON Company,USD,0,,,,Business Unit Delta ,Latin America
+5/1/22,20010,Trade Shows,Deutsche Messe AG,AUD,58200,,,,Business Unit Echo,APAC
+5/1/22,20007,Management Consulting ,The Boston Consulting Group,EUR,30800,,,,Business Unit Bravo,Europe
+5/1/22,20010,Trade Shows,Reed Exhibitions,USD,27300,,,,Business Unit Charlie,North America
+5/1/22,20002,Office Furniture,Steelcase,USD,68000,,,,Business Unit Charlie,North America
+5/1/22,20004,Cloud Spend,Amazon Web Services (AWS),AUD,79200,,,,Business Unit Bravo,APAC
+5/1/22,20005,Marketing and Advertising,Google Ads,USD,17600,,,,Business Unit Charlie,Latin America
+5/1/22,20010,Trade Shows,Deutsche Messe AG,AUD,18600,,,,Business Unit Bravo,APAC
+5/1/22,20003,Office Supplies,Amazon Business,USD,0,,,,Business Unit Charlie,North America
+5/1/22,20007,Management Consulting ,Deloitte Consulting,AUD,11000,,,,Business Unit Delta ,APAC
+5/1/22,20008,Travel Meals,BCD Travel,EUR,40200,,,,Business Unit Charlie,Europe
+5/1/22,20009,Computer Equipment ,Samsung,USD,30000,,,,Business Unit Delta ,Latin America
+5/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,10800,,,,Business Unit Charlie,North America
+5/1/22,20006,Tax Preparation,H&R Block,USD,15600,,,,Business Unit Charlie,Latin America
+5/1/22,20002,Office Furniture,Kimball International,EUR,187000,,,,Business Unit Echo,Europe
+5/1/22,20008,Travel Meals,CWT,EUR,0,,,,Business Unit Bravo,Europe
+5/1/22,20002,Office Furniture,Kimball International,USD,146000,,,,Business Unit Alpha ,North America
+5/1/22,20007,Management Consulting ,McKinsey & Company,USD,32200,,,,Business Unit Charlie,Latin America
+5/1/22,20007,Management Consulting ,Deloitte Consulting,EUR,38400,,,,Business Unit Charlie,Europe
+5/1/22,20010,Trade Shows,Diversified Business Communications,USD,21000,,,,Business Unit Alpha ,Latin America
+5/1/22,20010,Trade Shows,Comexposium Group,USD,55500,,,,Business Unit Charlie,North America
+5/1/22,20007,Management Consulting ,Bain & Company,EUR,32400,,,,Business Unit Delta ,Europe
+6/1/22,20007,Management Consulting ,Bain & Company,EUR,20000,,,,Business Unit Delta ,Europe
+6/1/22,20010,Trade Shows,Deutsche Messe AG,AUD,29100,,,,Business Unit Charlie,APAC
+6/1/22,20004,Cloud Spend,Amazon Web Services (AWS),USD,50800,,,,Business Unit Charlie,Latin America
+6/1/22,20006,Tax Preparation,Jackson Hewitt,EUR,14600,,,,Business Unit Alpha ,Europe
+6/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,10000,,,,Business Unit Charlie,Latin America
+6/1/22,20004,Cloud Spend,Amazon Web Services (AWS),EUR,65200,,,,Business Unit Alpha ,Europe
+6/1/22,20007,Management Consulting ,Deloitte Consulting,AUD,0,,,,Business Unit Charlie,APAC
+6/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,28000,,,,Business Unit Bravo,Latin America
+6/1/22,20007,Management Consulting ,Accenture,USD,22400,,,,Business Unit Charlie,North America
+6/1/22,20009,Computer Equipment ,Apple,USD,22600,,,,Business Unit Alpha ,North America
+6/1/22,20009,Computer Equipment ,Apple,USD,27600,,,,Business Unit Echo,Latin America
+6/1/22,20011,Insurance,Humana,AUD,22000,,,,Business Unit Delta ,APAC
+6/1/22,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,USD,0,,,,Business Unit Delta ,North America
+6/1/22,20009,Computer Equipment ,Dell Technologies,USD,10400,,,,Business Unit Alpha ,Latin America
+6/1/22,20003,Office Supplies,Quill,EUR,50000,,,,Business Unit Echo,Europe
+6/1/22,20010,Trade Shows,Comexposium Group,AUD,31200,,,,Business Unit Alpha ,APAC
+6/1/22,20008,Travel Meals,Egencia,USD,39600,,,,Business Unit Bravo,Latin America
+6/1/22,20008,Travel Meals,BCD Travel,EUR,50400,,,,Business Unit Charlie,Europe
+6/1/22,20008,Travel Meals,CWT,USD,18300,,,,Business Unit Delta ,Latin America
+6/1/22,20001,Software,Google,USD,312000,,,,Business Unit Charlie,North America
+6/1/22,20011,Insurance,Cigna,EUR,15000,,,,Business Unit Echo,Europe
+6/1/22,20011,Insurance,Humana,USD,17200,,,,Business Unit Alpha ,Latin America
+6/1/22,20011,Insurance,UnitedHealth Group,AUD,34400,,,,Business Unit Charlie,APAC
+6/1/22,20007,Management Consulting ,Accenture,AUD,26000,,,,Business Unit Alpha ,APAC
+6/1/22,20008,Travel Meals,CWT,EUR,0,,,,Business Unit Delta ,Europe
+6/1/22,20004,Cloud Spend,Amazon Web Services (AWS),EUR,0,,,,Business Unit Echo,Europe
+6/1/22,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,USD,20600,,,,Business Unit Echo,Latin America
+6/1/22,20011,Insurance,Humana,AUD,22400,,,,Business Unit Charlie,APAC
+6/1/22,20011,Insurance,UnitedHealth Group,USD,0,,,,Business Unit Bravo,Latin America
+7/1/22,20004,Cloud Spend,Salesforce,USD,27600,,,,Business Unit Delta ,Latin America
+7/1/22,20001,Software,Oracle,USD,366000,,,,Business Unit Echo,Latin America
+7/1/22,20011,Insurance,Humana,EUR,27800,,,,Business Unit Alpha ,Europe
+7/1/22,20005,Marketing and Advertising,Instagram Ads),EUR,0,,,,Business Unit Charlie,Europe
+7/1/22,20002,Office Furniture,Steelcase,USD,70000,,,,Business Unit Alpha ,Latin America
+7/1/22,20005,Marketing and Advertising,Instagram Ads),USD,27800,,,,Business Unit Alpha ,North America
+7/1/22,20002,Office Furniture,Herman Miller,USD,158000,,,,Business Unit Delta ,Latin America
+7/1/22,20004,Cloud Spend,Salesforce,EUR,32000,,,,Business Unit Charlie,Europe
+7/1/22,20001,Software,SAP,EUR,594000,,,,Business Unit Echo,Europe
+7/1/22,20009,Computer Equipment ,Samsung,USD,25600,,,,Business Unit Charlie,Latin America
+7/1/22,20007,Management Consulting ,Accenture,USD,0,,,,Business Unit Bravo,Latin America
+7/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,14200,,,,Business Unit Alpha ,Latin America
+7/1/22,20004,Cloud Spend,Amazon Web Services (AWS),AUD,71200,,,,Business Unit Charlie,APAC
+7/1/22,20004,Cloud Spend,Microsoft Azure,EUR,0,,,,Business Unit Bravo,Europe
+7/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),EUR,27200,,,,Business Unit Alpha ,Europe
+7/1/22,20007,Management Consulting ,McKinsey & Company,USD,28200,,,,Business Unit Charlie,Latin America
+7/1/22,20005,Marketing and Advertising,Google Ads,USD,33400,,,,Business Unit Delta ,North America
+7/1/22,20003,Office Supplies,Office Depot,AUD,60000,,,,Business Unit Alpha ,APAC
+7/1/22,20008,Travel Meals,Travelocity Business,USD,30600,,,,Business Unit Delta ,North America
+7/1/22,20011,Insurance,Humana,USD,15600,,,,Business Unit Bravo,North America
+7/1/22,20007,Management Consulting ,McKinsey & Company,EUR,14000,,,,Business Unit Delta ,Europe
+7/1/22,20009,Computer Equipment ,HP Inc.,AUD,32000,,,,Business Unit Echo,APAC
+7/1/22,20002,Office Furniture,HON Company,AUD,137000,,,,Business Unit Echo,APAC
+7/1/22,20008,Travel Meals,American Express Global Business Travel,USD,18600,,,,Business Unit Alpha ,North America
+7/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),USD,24800,,,,Business Unit Delta ,North America
+7/1/22,20006,Tax Preparation,Ernst & Young,AUD,15400,,,,Business Unit Delta ,APAC
+7/1/22,20001,Software,Google,AUD,408000,,,,Business Unit Charlie,APAC
+7/1/22,20005,Marketing and Advertising,Instagram Ads),AUD,0,,,,Business Unit Echo,APAC
+7/1/22,20011,Insurance,UnitedHealth Group,USD,19400,,,,Business Unit Alpha ,North America
+8/1/22,20009,Computer Equipment ,HP Inc.,AUD,25800,,,,Business Unit Echo,APAC
+8/1/22,20002,Office Furniture,Herman Miller,USD,0,,,,Business Unit Delta ,North America
+8/1/22,20002,Office Furniture,Steelcase,EUR,0,,,,Business Unit Bravo,Europe
+8/1/22,20011,Insurance,UnitedHealth Group,USD,26800,,,,Business Unit Echo,Latin America
+8/1/22,20010,Trade Shows,Comexposium Group,USD,30000,,,,Business Unit Delta ,North America
+8/1/22,20010,Trade Shows,Diversified Business Communications,AUD,26400,,,,Business Unit Bravo,APAC
+8/1/22,20010,Trade Shows,Deutsche Messe AG,USD,33000,,,,Business Unit Charlie,Latin America
+8/1/22,20008,Travel Meals,Egencia,AUD,38700,,,,Business Unit Echo,APAC
+8/1/22,20009,Computer Equipment ,HP Inc.,AUD,36600,,,,Business Unit Delta ,APAC
+8/1/22,20004,Cloud Spend,Microsoft Azure,USD,29600,,,,Business Unit Alpha ,North America
+8/1/22,20009,Computer Equipment ,Samsung,EUR,0,,,,Business Unit Alpha ,Europe
+8/1/22,20002,Office Furniture,Kimball International,USD,90000,,,,Business Unit Alpha ,North America
+8/1/22,20009,Computer Equipment ,HP Inc.,USD,0,,,,Business Unit Charlie,North America
+8/1/22,20003,Office Supplies,Office Depot,USD,128000,,,,Business Unit Charlie,North America
+8/1/22,20005,Marketing and Advertising,Meta Platforms (Facebook Ads,USD,21800,,,,Business Unit Delta ,North America
+8/1/22,20008,Travel Meals,Egencia,AUD,45300,,,,Business Unit Charlie,APAC
+8/1/22,20010,Trade Shows,Deutsche Messe AG,EUR,0,,,,Business Unit Bravo,Europe
+8/1/22,20002,Office Furniture,Herman Miller,USD,0,,,,Business Unit Echo,Latin America
+8/1/22,20002,Office Furniture,HON Company,AUD,129000,,,,Business Unit Delta ,APAC
+8/1/22,20011,Insurance,Cigna,EUR,0,,,,Business Unit Delta ,Europe
+8/1/22,20001,Software,Google,USD,192000,,,,Business Unit Bravo,North America
+8/1/22,20001,Software,Google,EUR,486000,,,,Business Unit Charlie,Europe
+8/1/22,20008,Travel Meals,American Express Global Business Travel,AUD,55200,,,,Business Unit Charlie,APAC
+8/1/22,20001,Software,Oracle,AUD,342000,,,,Business Unit Bravo,APAC
+8/1/22,20011,Insurance,Anthem Inc.,USD,37800,,,,Business Unit Alpha ,Latin America
+8/1/22,20008,Travel Meals,CWT,EUR,24000,,,,Business Unit Alpha ,Europe
+8/1/22,20006,Tax Preparation,TaxAct,AUD,11600,,,,Business Unit Bravo,APAC
+8/1/22,20003,Office Supplies,W.B. Mason,EUR,142000,,,,Business Unit Bravo,Europe
+8/1/22,20004,Cloud Spend,IBM Cloud,USD,34000,,,,Business Unit Bravo,Latin America
+9/1/22,20002,Office Furniture,Herman Miller,USD,113000,,,,Business Unit Alpha ,Latin America
+9/1/22,20011,Insurance,Aetna,EUR,22000,,,,Business Unit Echo,Europe
+9/1/22,20004,Cloud Spend,Microsoft Azure,USD,60400,,,,Business Unit Echo,North America
+9/1/22,20001,Software,Google,USD,384000,,,,Business Unit Delta ,Latin America
+9/1/22,20002,Office Furniture,Steelcase,USD,129000,,,,Business Unit Charlie,North America
+9/1/22,20009,Computer Equipment ,Lenovo,USD,0,,,,Business Unit Alpha ,Latin America
+9/1/22,20008,Travel Meals,BCD Travel,USD,30600,,,,Business Unit Bravo,North America
+9/1/22,20010,Trade Shows,Diversified Business Communications,AUD,44100,,,,Business Unit Charlie,APAC
+9/1/22,20001,Software,Oracle,USD,186000,,,,Business Unit Alpha ,Latin America
+9/1/22,20006,Tax Preparation,H&R Block,USD,8400,,,,Business Unit Alpha ,Latin America
+9/1/22,20011,Insurance,Aetna,USD,0,,,,Business Unit Delta ,North America
+9/1/22,20004,Cloud Spend,IBM Cloud,EUR,76800,,,,Business Unit Alpha ,Europe
+9/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,24000,,,,Business Unit Charlie,North America
+9/1/22,20011,Insurance,Humana,USD,32600,,,,Business Unit Delta ,North America
+9/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),AUD,75600,,,,Business Unit Alpha ,APAC
+9/1/22,20006,Tax Preparation,Price Waterhouse Cooper,USD,19700,,,,Business Unit Echo,North America
+9/1/22,20006,Tax Preparation,TaxAct,USD,17500,,,,Business Unit Charlie,North America
+9/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),AUD,74400,,,,Business Unit Bravo,APAC
+9/1/22,20001,Software,Oracle,USD,291000,,,,Business Unit Delta ,North America
+9/1/22,20006,Tax Preparation,Price Waterhouse Cooper,EUR,16400,,,,Business Unit Delta ,Europe
+9/1/22,20005,Marketing and Advertising,Instagram Ads),AUD,18400,,,,Business Unit Charlie,APAC
+9/1/22,20011,Insurance,UnitedHealth Group,AUD,32200,,,,Business Unit Delta ,APAC
+9/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),AUD,54800,,,,Business Unit Charlie,APAC
+9/1/22,20003,Office Supplies,Quill,AUD,73000,,,,Business Unit Delta ,APAC
+9/1/22,20011,Insurance,UnitedHealth Group,USD,12800,,,,Business Unit Charlie,Latin America
+9/1/22,20006,Tax Preparation,Jackson Hewitt,USD,0,,,,Business Unit Echo,North America
+9/1/22,20011,Insurance,Anthem Inc.,EUR,21200,,,,Business Unit Bravo,Europe
+9/1/22,20011,Insurance,Aetna,USD,0,,,,Business Unit Delta ,North America
+9/1/22,20005,Marketing and Advertising,Amazon Advertising,USD,30000,,,,Business Unit Echo,Latin America
+10/1/22,20004,Cloud Spend,Google Cloud Platform (GCP),EUR,68000,,,,Business Unit Bravo,Europe
+10/1/22,20005,Marketing and Advertising,The Trade Desk,USD,12200,,,,Business Unit Bravo,North America
+10/1/22,20010,Trade Shows,Reed Exhibitions,USD,24300,,,,Business Unit Charlie,North America
+10/1/22,20011,Insurance,Humana,EUR,27800,,,,Business Unit Alpha ,Europe

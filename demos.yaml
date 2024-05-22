@@ -1,0 +1,31 @@
+demos:
+  generic_demo:
+  - filename: data/facilities.csv
+    datasetName: Buildings
+    schemaId: cts_21155GJbgAUG215bB19j
+    schemaVersion: "1.0"
+  - filename: data/employees.csv
+    datasetName: Employees
+    schemaId: cts_21155GB68XBUiXNU91dc
+    schemaVersion: "1.0"
+  # - filename: data/electricity.csv
+  #   datasetName: Utilities
+  #   schemaId: cts_21155GF4xvX7L2RNEwHv
+  #   schemaVersion: "1.0"
+
+  healthcare_demo:
+  - filename: data/facilities.csv
+    datasetName: Buildings
+    schemaId: cts_21155GJbgAUG215bB19j
+    schemaVersion: "1.0"
+
+  manufacturing_demo:
+  - filename: data/facilities.csv
+    datasetName: Buildings
+    schemaId: cts_21155GJbgAUG215bB19j
+    schemaVersion: "1.0"
+  food_demo:
+  - filename: data/facilities.csv
+    datasetName: Buildings
+    schemaId: cts_21155GJbgAUG215bB19j
+    schemaVersion: "1.0"

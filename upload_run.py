@@ -1,4 +1,5 @@
-
+import inquirer
+import yaml
 import os
 import requests
 import json
@@ -85,3 +86,36 @@ class Dataset:
         # submit the data
         post(f'v2/ingestion/uploads/{apiUploadId}/submit', { "project_id": measurementProjectId })
 
+
+def get_demo():
+    with open('demos.yaml', 'r') as demo_file:
+        demos = yaml.safe_load(demo_file)["demos"]
+        key = "demo"
+        questions = [
+            inquirer.List(
+                key,
+                message="What demo would you like to use",
+                choices=demos.keys(),
+            ),
+        ]
+        answers = inquirer.prompt(questions)
+        dataset = demos[answers[key]]
+        return dataset
+
+
+if __name__ == "__main__":
+    demoDatasets = get_demo()
+
+    measurementProjectId = input('What is your measurement project ID? (hit enter to just make a new project)\n') # should start with proj_
+    if (measurementProjectId == ""):
+        result = post('v2/ingestion/projects', {
+            "name": "New Demo Project",
+            "coverageEndDate": "2023-01-01",
+            "coverageStartDate": "2022-01-01",
+            "kickoff": "2024-05-01",
+            "deadline": "2024-06-01"
+        })
+        measurementProjectId = result["id"]
+
+    for dataset in demoDatasets:
+        Dataset(dataset["filename"], dataset["datasetName"], dataset["schemaId"], dataset["schemaVersion"]).upload(measurementProjectId=measurementProjectId)
